@@ -1,0 +1,17 @@
+<log type="Session" name="LT-IMC-QA-0174:laresuser" at="2024-05-29 11:14:22.178"/>
+<log type="Test" name="CLRP _Regression_ATC_085.1" status="Info"  at="2024-05-29 11:14:23.548"><data type="text">Test Started: C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\CLRP _Regression_ATC_085.1\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2024-05-29 11:14:23.554"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 11:14:23.593" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 11:14:23.608"/>
+<log type="Message" name="The Value is : CLRP _Regression_ATC_085.1" status="Info"  at="2024-05-29 11:14:23.608"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 11:14:23.628" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 11:14:23.630"/>
+<log type="Message" name="The Value is : Aeliana Evangeline Anastasia Ophelia Seraphina Isabelle Rosalind Arabella Clarissa Evelina Octavia Mirabella Celestia Seraphine Isolde Genevieve Felicity Aurelia Eleanora Gwendolyn Lysandra Marcelline Penelope Theodora Vivienne Zephyrine Angelica Bellatrix Callista Desdemona Elysia Faerielith Guinevere Hypatia Iolanthe Jessamine Kalliope Lysithea MelisandeñÑa-zA-Z0-9 .&apos;‘`;,-ñÑa-zA-Z0-9 .&apos;‘`;,-ñÑa-zA-Z0-9 .&apos;‘`;,-ñÑa-zA-Z0-9 .&apos;‘`;,-ñÑa-zA-Z0-9 .&apos;‘`;,-ñÑa-zA-Z0-9 .&apos;‘`;,-ñÑa-zA-Z0-9 .&apos;‘`;,-ñÑa-zA-Z0" status="Info"  at="2024-05-29 11:14:23.630"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 11:14:23.648" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 11:14:23.648"/>
+<log type="Message" name="The Value is : 277 Looban II, Loma de Gato, Marilao, Bulacan. 3019 0-9ñÑa-zA-Z #&apos;‘`.,/()-0-9ñÑa-zA-Z #&apos;‘`.,/()-0-9ñÑa-zA-Z #&apos;‘`.,/()-0-9ñÑa-zA-Z #&apos;‘`.,/()-0-9ñÑa-zA-Z #&apos;‘`.,/()-0-9ñÑa-zA-Z #&apos;‘`.,/()-0-9ñÑa-zA-Z #&apos;‘`.,/()-0-9ñÑa-zA-Z #&apos;‘`.,/()-0-9ñÑa-zA-Z #&apos;‘`.,/()-" status="Info"  at="2024-05-29 11:14:23.658"/>
+<log type="Assert" name="Global.DoKillByPid: 26472" status="Info" realStatus="Pass"  at="2024-05-29 11:14:24.253"/>
+<log type="Assert" name="Execution terminated by user" status="Fail"  at="2024-05-29 11:14:38.098"><data type="link" url="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\CLRP _Regression_ATC_085.1\Main.js(109,1)" text="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\CLRP _Regression_ATC_085.1\Main.js(109,1)"/>
+<data type="text">SeS(&apos;Upload_eTD_Choose_File&apos;).DoSendKeys(&quot;C:\\Users\\Public\\CLRP\\XML File\\&quot; + etd_file + &quot;.xml&quot;);</data>
+</log>

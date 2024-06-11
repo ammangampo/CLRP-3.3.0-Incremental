@@ -1,0 +1,2039 @@
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+SeS Player Starting...
+Rapise Version:7.4.27.88
+Verbose level:1
+Creating a locator:Spreadsheet
+Creating a locator:HTML
+Creating a locator:HTML FPP
+Checking global object: Generator
+Global object Generator is not defined yet
+Assembling global object: Generator
+Action found: GetNextValue
+Action found: Create
+Action found: Format
+Creating a locator:REST
+Creating a locator:SOAP
+Checking global object: Spira
+Global object Spira is not defined yet
+Assembling global object: Spira
+Action found: GetHostToken
+Action found: GetProjectId
+Action found: GetAutomationHostId
+Action found: RunTestSet
+Action found: CreateIncident
+Action found: GetTestCaseById
+Action found: UpdateTestCase
+Action found: CreateTestCase
+Action found: GetTestCaseFolders
+Action found: CreateTestCaseFolder
+Action found: GetTestCasesInFolder
+Action found: GetProjectById
+Action found: GetTestCaseTypes
+Initializing Web, g_browserLibrary=Selenium
+Creating a locator:UIAutomation
+Creating a locator:UIAutomation2
+###CLRP _Regression_ATC_092.1 (-2)
+###Starting scenario: Test (-2)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : Alwin Mangampo, Legal Age, Single. (-2)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan (-2)
+###Global.DoSetScreenResolution: 1920, 1080 (1)
+Using default WebAppProfile
+Attach result: Rapise WebSpy code embedded into Selenium
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:HTML(HTMLObject)[-1]
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###clrpautoencode (-2)
+###Pass@123 (-2)
+Looking for object:CLRP_Main_Login
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Login(HTMLObject)[-1]
+CLRP_Main_Login.DoClick([])
+###CLRP_Main_Login.DoClick([]) (1)
+Action result:true
+Looking for object:Login_Username
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:loginField(HTMLObject)[-1]
+Login_Username.DoSetText(["clrpautoencode"])
+###Login_Username.DoSetText(["clrpautoencode"]) (1)
+Action result:true
+Looking for object:Login_Password
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:passwordField(HTMLObject)[-1]
+Login_Password.DoSetText(["Pass@123"])
+###Login_Password.DoSetText(["Pass@123"]) (1)
+Action result:true
+Looking for object:Login_Button
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Login(HTMLObject)[-1]
+Login_Button.DoClick([])
+###Login_Button.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+###Global.DoWaitFor: Alert_Later (-2)
+Looking for object:Dashboard
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Dashboard(HTMLObject)[-1]
+Dashboard.DoClick([])
+###Dashboard.DoClick([]) (1)
+Action result:true
+Looking for object:Create_Request
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?CREATE REQUEST(HTMLObject)[-1]
+Create_Request.DoClick([])
+###Create_Request.DoClick([]) (1)
+Action result:true
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : Parcelization of Collective CLOA - Issue cTitle (With Subdivision Plan Approved by DENR) - Voluntary (-2)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : PSD-9090 (-2)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : 10 (-2)
+Looking for object:Registry_Of_Deeds_Textbox
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+Registry_Of_Deeds_Textbox.DoSendKeys(["Province of Lanao del Sur"])
+###Registry_Of_Deeds_Textbox.DoSendKeys(["Province of Lanao del Sur"]) (1)
+Action result:true
+Looking for object:Generic_List
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Province of Lanao del Sur(HTMLObject)[-1]
+Generic_List.DoClick([])
+###Generic_List.DoClick([]) (1)
+Action result:true
+###Global.DoSendKeys: {ENTER} (1)
+Looking for object:RoD_Minor_Transaction_Textbox
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-6(HTMLObject)[-1]
+RoD_Minor_Transaction_Textbox.DoSetText(["Parcelization of Collective CLOA - Issue cTitle (With Subdivision Plan Approved by DENR) - Voluntary"])
+###RoD_Minor_Transaction_Textbox.DoSetText(["Parcelization of Collective CLOA - Issue cTitle (With Subdivision Plan Approved by DENR) - Voluntary"]) (1)
+Action result:true
+Looking for object:Generic_List
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Parcelization of Collective CLOA - Issue cTitle (With Subdivision Plan Approved by DENR) - Voluntary(HTMLObject)[-1]
+Generic_List.DoClick([])
+###Generic_List.DoClick([]) (1)
+Action result:true
+Looking for object:RoD_Survey_Plan_Number
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-8(HTMLObject)[-1]
+RoD_Survey_Plan_Number.DoSetText(["PSD-9090"])
+###RoD_Survey_Plan_Number.DoSetText(["PSD-9090"]) (1)
+Action result:true
+Looking for object:RoD_Number_Of_Titles
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-10(HTMLObject)[-1]
+RoD_Number_Of_Titles.DoSetText([10])
+###RoD_Number_Of_Titles.DoSetText([10]) (1)
+Action result:true
+Looking for object:RoD_Select_Tie_Point
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Select Tie Point(HTMLObject)[-1]
+RoD_Select_Tie_Point.DoClick([])
+error: click: element click intercepted: Element <span class="v-button-wrap">...</span> is not clickable at point (1836, 482). Other element would receive the click: <div tabindex="0" role="button" class="v-button v-widget c-primary-action v-button-c-primary-action">...</div>
+  (Session info: chrome=125.0.6422.78)
+###RoD_Select_Tie_Point.DoClick([]) (1)
+Action result:true
+Looking for object:STP_Place_Textbox
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+STP_Place_Textbox.DoSetText(["QUEZON CITY"])
+###STP_Place_Textbox.DoSetText(["QUEZON CITY"]) (1)
+Action result:true
+###Global.DoSendKeys: {ENTER} (1)
+Looking for object:ST_ID_Description_Select
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:MMA 3157(HTMLObject)[-1]
+ST_ID_Description_Select.DoClick([])
+###ST_ID_Description_Select.DoClick([]) (1)
+Action result:true
+Looking for object:STP_Finish_Selection
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Finish Selection(HTMLObject)[-1]
+STP_Finish_Selection.DoClick([])
+###STP_Finish_Selection.DoClick([]) (1)
+Action result:true
+Looking for object:Generic_Next
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Next(HTMLObject)[-1]
+Generic_Next.DoClick([])
+error: click: element click intercepted: Element <span class="v-button-caption">...</span> is not clickable at point (1876, 228). Other element would receive the click: <div tabindex="0" role="button" class="v-button v-widget icon" style="font-size: 1vw;">...</div>
+  (Session info: chrome=125.0.6422.78)
+###Generic_Next.DoClick([]) (1)
+Action result:true
+Looking for object:Generic_Next
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Next(HTMLObject)[-1]
+Generic_Next.DoClick([])
+error: click: element click intercepted: Element <span class="v-button-caption">...</span> is not clickable at point (1876, 228). Other element would receive the click: <div tabindex="0" role="button" class="v-button v-widget icon" style="font-size: 1vw;">...</div>
+  (Session info: chrome=125.0.6422.78)
+###Generic_Next.DoClick([]) (1)
+Action result:true
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : Transfer Certificate of Title (-2)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : TCT-001 (-2)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : CCLOA-101 (-2)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : 277 Looban II, Loma de Gato, Marilao, Bulacan. 3019 Uppercase letters (A-Z and ¥), Numeric (0-9), Lowercase letters (a-z and ¤), Number sign (#), Apostrophe (`), Period (.), Comma (,) Dash (-), Slash (/), Spaces and Open and Close parenthesis. A-Z a-z 0-9 (-2)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : 1000 (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-45(HTMLObject)[-1]
+Looking for object:Title_Type
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-45(HTMLObject)[-1]
+Title_Type.DoSetText(["Transfer Certificate of Title"])
+###Title_Type.DoSetText(["Transfer Certificate of Title"]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Transfer Certificate of Title(HTMLObject)[-1]
+Looking for object:Generic_List
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Transfer Certificate of Title(HTMLObject)[-1]
+Generic_List.DoClick([])
+###Generic_List.DoClick([]) (1)
+Action result:true
+Looking for object:Title_Number
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-47(HTMLObject)[-1]
+Title_Number.DoSetText(["TCT-001"])
+###Title_Number.DoSetText(["TCT-001"]) (1)
+Action result:true
+Looking for object:CCLOA_No.
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-49(HTMLObject)[-1]
+CCLOA_No..DoSetText(["CCLOA-101"])
+###CCLOA_No..DoSetText(["CCLOA-101"]) (1)
+Action result:true
+Looking for object:Location_of_Property
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-51(HTMLObject)[-1]
+Location_of_Property.DoSetText(["277 Looban II, Loma de Gato, Marilao, Bulacan. 3019 Uppercase letters (A-Z and ¥), Numeric (0-9), Lowercase letters (a-z and ¤), Number sign (#), Apostrophe (`), Period (.), Comma (,) Dash (-), Slash (/), Spaces and Open and Close parenthesis. A-Z a-z 0-9"])
+###Location_of_Property.DoSetText(["277 Looban II, Loma de Gato, Marilao, Bulacan. 3019 Uppercase letters (A-Z and ¥), Numeric (0-9), Lowercase letters (a-z and ¤), Number sign (#), Apostrophe (`), Period (.), Comma (,) Dash (-), Slash (/), Spaces and Open and Close parenthesis. A-Z a-z 0-9"]) (1)
+Action result:true
+Looking for object:Total_Area
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-53(HTMLObject)[-1]
+Total_Area.DoSetText([1000])
+###Total_Area.DoSetText([1000]) (1)
+Action result:true
+Looking for object:Location_of_Property
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-51(HTMLObject)[-1]
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Reference(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+Looking for object:Generic_Next
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Next(HTMLObject)[-1]
+Generic_Next.DoClick([])
+error: click: element click intercepted: Element <span class="v-button-caption">...</span> is not clickable at point (1876, 228). Other element would receive the click: <div tabindex="0" role="button" class="v-button v-widget icon" style="font-size: 1vw;">...</div>
+  (Session info: chrome=125.0.6422.78)
+###Generic_Next.DoClick([]) (1)
+Action result:true
+Looking for object:Generic_Next
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Next(HTMLObject)[-1]
+Generic_Next.DoClick([])
+error: click: element click intercepted: Element <span class="v-button-caption">...</span> is not clickable at point (1876, 228). Other element would receive the click: <div tabindex="0" role="button" class="v-button v-widget icon" style="font-size: 1vw;">...</div>
+  (Session info: chrome=125.0.6422.78)
+###Generic_Next.DoClick([]) (1)
+Action result:true
+###C:\Users\Public\CLRP\300 XML\PSD-9090_BA_L1_1.xml (-2)
+Looking for object:Upload_eTD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L1_1.xml"])
+###Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L1_1.xml"]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Upload(HTMLObject)[-1]
+Upload_Scanned_TD.DoClick([true])
+###Upload_Scanned_TD.DoClick([true]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"])
+###Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Image.jpg(HTMLObject)[-1]
+###Global.DoWaitFor: Image_ChooseFile (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:975_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+Looking for object:Name_of_the_Beneficiary
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-61(HTMLObject)[-1]
+Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 1"])
+###Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 1"]) (1)
+Action result:true
+Looking for object:Address
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-63(HTMLObject)[-1]
+Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 1"])
+###Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 1"]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+###Global.DoSendKeys: ^j (1)
+###Global.DoSendKeys: ^w (1)
+Looking for object:TD_PreviewWithParameter
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?TD Preview(HTMLObject)[-1]
+TD_PreviewWithParameter.DoClick([])
+###TD_PreviewWithParameter.DoClick([]) (1)
+Action result:true
+###Screen flow (-2)
+###Preview (-2)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Global.DoSendKeys: Encoder_XML_File1_ETD_Preview_-2024-05-30_11_40_49.pdf (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : CLRP _Regression_ATC_092.1 (-2)
+###CLRP _Regression_ATC_092.1 (-2)
+Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat
+###Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat (1)
+###Folder created and file copied to: C:\Users\Public\CLRP\Reports\2024-05-30\CLRP _Regression_ATC_092.1\\Encoder_XML_File1_ETD_Preview_-2024-05-30_11_40_49.pdf (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1009_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+###C:\Users\Public\CLRP\300 XML\PSD-9090_BA_L2_2.xml (-2)
+Looking for object:Upload_eTD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L2_2.xml"])
+###Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L2_2.xml"]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Upload(HTMLObject)[-1]
+Upload_Scanned_TD.DoClick([true])
+###Upload_Scanned_TD.DoClick([true]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"])
+###Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Image.jpg(HTMLObject)[-1]
+###Global.DoWaitFor: Image_ChooseFile (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1038_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+Looking for object:Name_of_the_Beneficiary
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-61(HTMLObject)[-1]
+Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 2"])
+###Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 2"]) (1)
+Action result:true
+Looking for object:Address
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-63(HTMLObject)[-1]
+Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 2"])
+###Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 2"]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+###Global.DoSendKeys: ^j (1)
+###Global.DoSendKeys: ^w (1)
+Looking for object:TD_PreviewWithParameter
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?TD Preview(HTMLObject)[-1]
+TD_PreviewWithParameter.DoClick([])
+###TD_PreviewWithParameter.DoClick([]) (1)
+Action result:true
+###Preview (-2)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Global.DoSendKeys: Encoder_XML_File2_ETD_Preview_-2024-05-30_11_41_25.pdf (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : CLRP _Regression_ATC_092.1 (-2)
+###CLRP _Regression_ATC_092.1 (-2)
+Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat
+###Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat (1)
+###Folder created and file copied to: C:\Users\Public\CLRP\Reports\2024-05-30\CLRP _Regression_ATC_092.1\\Encoder_XML_File2_ETD_Preview_-2024-05-30_11_41_25.pdf (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1082_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+###C:\Users\Public\CLRP\300 XML\PSD-9090_BA_L3_3.xml (-2)
+Looking for object:Upload_eTD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L3_3.xml"])
+###Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L3_3.xml"]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Upload(HTMLObject)[-1]
+Upload_Scanned_TD.DoClick([true])
+###Upload_Scanned_TD.DoClick([true]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"])
+###Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Image.jpg(HTMLObject)[-1]
+###Global.DoWaitFor: Image_ChooseFile (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1116_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+Looking for object:Name_of_the_Beneficiary
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-61(HTMLObject)[-1]
+Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 3"])
+###Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 3"]) (1)
+Action result:true
+Looking for object:Address
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-63(HTMLObject)[-1]
+Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 3"])
+###Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 3"]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+###Global.DoSendKeys: ^j (1)
+###Global.DoSendKeys: ^w (1)
+Looking for object:TD_PreviewWithParameter
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?TD Preview(HTMLObject)[-1]
+TD_PreviewWithParameter.DoClick([])
+###TD_PreviewWithParameter.DoClick([]) (1)
+Action result:true
+###Preview (-2)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Global.DoSendKeys: Encoder_XML_File3_ETD_Preview_-2024-05-30_11_42_01.pdf (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : CLRP _Regression_ATC_092.1 (-2)
+###CLRP _Regression_ATC_092.1 (-2)
+Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat
+###Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat (1)
+###Folder created and file copied to: C:\Users\Public\CLRP\Reports\2024-05-30\CLRP _Regression_ATC_092.1\\Encoder_XML_File3_ETD_Preview_-2024-05-30_11_42_01.pdf (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1170_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+###C:\Users\Public\CLRP\300 XML\PSD-9090_BA_L4_4.xml (-2)
+Looking for object:Upload_eTD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L4_4.xml"])
+###Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L4_4.xml"]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Upload(HTMLObject)[-1]
+Upload_Scanned_TD.DoClick([true])
+###Upload_Scanned_TD.DoClick([true]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"])
+###Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Image.jpg(HTMLObject)[-1]
+###Global.DoWaitFor: Image_ChooseFile (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1209_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+Looking for object:Name_of_the_Beneficiary
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-61(HTMLObject)[-1]
+Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 4"])
+###Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 4"]) (1)
+Action result:true
+Looking for object:Address
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-63(HTMLObject)[-1]
+Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 4"])
+###Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 4"]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+###Global.DoSendKeys: ^j (1)
+###Global.DoSendKeys: ^w (1)
+Looking for object:TD_PreviewWithParameter
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?TD Preview(HTMLObject)[-1]
+TD_PreviewWithParameter.DoClick([])
+###TD_PreviewWithParameter.DoClick([]) (1)
+Action result:true
+###Preview (-2)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Global.DoSendKeys: Encoder_XML_File4_ETD_Preview_-2024-05-30_11_42_37.pdf (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : CLRP _Regression_ATC_092.1 (-2)
+###CLRP _Regression_ATC_092.1 (-2)
+Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat
+###Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat (1)
+###Folder created and file copied to: C:\Users\Public\CLRP\Reports\2024-05-30\CLRP _Regression_ATC_092.1\\Encoder_XML_File4_ETD_Preview_-2024-05-30_11_42_37.pdf (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1273_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+###C:\Users\Public\CLRP\300 XML\PSD-9090_BA_L5_5.xml (-2)
+Looking for object:Upload_eTD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L5_5.xml"])
+###Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L5_5.xml"]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Upload(HTMLObject)[-1]
+Upload_Scanned_TD.DoClick([true])
+###Upload_Scanned_TD.DoClick([true]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"])
+###Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Image.jpg(HTMLObject)[-1]
+###Global.DoWaitFor: Image_ChooseFile (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1317_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+Looking for object:Name_of_the_Beneficiary
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-61(HTMLObject)[-1]
+Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 5"])
+###Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 5"]) (1)
+Action result:true
+Looking for object:Address
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-63(HTMLObject)[-1]
+Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 5"])
+###Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 5"]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+###Global.DoSendKeys: ^j (1)
+###Global.DoSendKeys: ^w (1)
+Looking for object:TD_PreviewWithParameter
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?TD Preview(HTMLObject)[-1]
+TD_PreviewWithParameter.DoClick([])
+###TD_PreviewWithParameter.DoClick([]) (1)
+Action result:true
+###Preview (-2)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Global.DoSendKeys: Encoder_XML_File5_ETD_Preview_-2024-05-30_11_43_13.pdf (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : CLRP _Regression_ATC_092.1 (-2)
+###CLRP _Regression_ATC_092.1 (-2)
+Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat
+###Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat (1)
+###Folder created and file copied to: C:\Users\Public\CLRP\Reports\2024-05-30\CLRP _Regression_ATC_092.1\\Encoder_XML_File5_ETD_Preview_-2024-05-30_11_43_13.pdf (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1391_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+###C:\Users\Public\CLRP\300 XML\PSD-9090_BA_L6_6.xml (-2)
+Looking for object:Upload_eTD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L6_6.xml"])
+###Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L6_6.xml"]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Upload(HTMLObject)[-1]
+Upload_Scanned_TD.DoClick([true])
+###Upload_Scanned_TD.DoClick([true]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"])
+###Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Image.jpg(HTMLObject)[-1]
+###Global.DoWaitFor: Image_ChooseFile (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1440_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+Looking for object:Name_of_the_Beneficiary
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-61(HTMLObject)[-1]
+Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 6"])
+###Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 6"]) (1)
+Action result:true
+Looking for object:Address
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-63(HTMLObject)[-1]
+Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 6"])
+###Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 6"]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+###Global.DoSendKeys: ^j (1)
+###Global.DoSendKeys: ^w (1)
+Looking for object:TD_PreviewWithParameter
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?TD Preview(HTMLObject)[-1]
+TD_PreviewWithParameter.DoClick([])
+###TD_PreviewWithParameter.DoClick([]) (1)
+Action result:true
+###Preview (-2)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Global.DoSendKeys: Encoder_XML_File6_ETD_Preview_-2024-05-30_11_43_49.pdf (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : CLRP _Regression_ATC_092.1 (-2)
+###CLRP _Regression_ATC_092.1 (-2)
+Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat
+###Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat (1)
+###Folder created and file copied to: C:\Users\Public\CLRP\Reports\2024-05-30\CLRP _Regression_ATC_092.1\\Encoder_XML_File6_ETD_Preview_-2024-05-30_11_43_49.pdf (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1524_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+###C:\Users\Public\CLRP\300 XML\PSD-9090_BA_L7_7.xml (-2)
+Looking for object:Upload_eTD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L7_7.xml"])
+###Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L7_7.xml"]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Upload(HTMLObject)[-1]
+Upload_Scanned_TD.DoClick([true])
+###Upload_Scanned_TD.DoClick([true]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"])
+###Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Image.jpg(HTMLObject)[-1]
+###Global.DoWaitFor: Image_ChooseFile (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1578_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+Looking for object:Name_of_the_Beneficiary
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-61(HTMLObject)[-1]
+Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 7"])
+###Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 7"]) (1)
+Action result:true
+Looking for object:Address
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-63(HTMLObject)[-1]
+Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 7"])
+###Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 7"]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+###Global.DoSendKeys: ^j (1)
+###Global.DoSendKeys: ^w (1)
+Looking for object:TD_PreviewWithParameter
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?TD Preview(HTMLObject)[-1]
+TD_PreviewWithParameter.DoClick([])
+###TD_PreviewWithParameter.DoClick([]) (1)
+Action result:true
+###Preview (-2)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Global.DoSendKeys: Encoder_XML_File7_ETD_Preview_-2024-05-30_11_44_25.pdf (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : CLRP _Regression_ATC_092.1 (-2)
+###CLRP _Regression_ATC_092.1 (-2)
+Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat
+###Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat (1)
+###Folder created and file copied to: C:\Users\Public\CLRP\Reports\2024-05-30\CLRP _Regression_ATC_092.1\\Encoder_XML_File7_ETD_Preview_-2024-05-30_11_44_25.pdf (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1672_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+###C:\Users\Public\CLRP\300 XML\PSD-9090_BA_L8_8.xml (-2)
+Looking for object:Upload_eTD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L8_8.xml"])
+###Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L8_8.xml"]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Upload(HTMLObject)[-1]
+Upload_Scanned_TD.DoClick([true])
+###Upload_Scanned_TD.DoClick([true]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"])
+###Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Image.jpg(HTMLObject)[-1]
+###Global.DoWaitFor: Image_ChooseFile (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1731_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+Looking for object:Name_of_the_Beneficiary
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-61(HTMLObject)[-1]
+Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 8"])
+###Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 8"]) (1)
+Action result:true
+Looking for object:Address
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-63(HTMLObject)[-1]
+Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 8"])
+###Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 8"]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+###Global.DoSendKeys: ^j (1)
+###Global.DoSendKeys: ^w (1)
+Looking for object:TD_PreviewWithParameter
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?TD Preview(HTMLObject)[-1]
+TD_PreviewWithParameter.DoClick([])
+###TD_PreviewWithParameter.DoClick([]) (1)
+Action result:true
+###Preview (-2)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Global.DoSendKeys: Encoder_XML_File8_ETD_Preview_-2024-05-30_11_45_01.pdf (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : CLRP _Regression_ATC_092.1 (-2)
+###CLRP _Regression_ATC_092.1 (-2)
+Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat
+###Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat (1)
+###Folder created and file copied to: C:\Users\Public\CLRP\Reports\2024-05-30\CLRP _Regression_ATC_092.1\\Encoder_XML_File8_ETD_Preview_-2024-05-30_11_45_01.pdf (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1835_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+###C:\Users\Public\CLRP\300 XML\PSD-9090_BA_L9_9.xml (-2)
+Looking for object:Upload_eTD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L9_9.xml"])
+###Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L9_9.xml"]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Upload(HTMLObject)[-1]
+Upload_Scanned_TD.DoClick([true])
+###Upload_Scanned_TD.DoClick([true]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"])
+###Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Image.jpg(HTMLObject)[-1]
+###Global.DoWaitFor: Image_ChooseFile (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1899_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+Looking for object:Name_of_the_Beneficiary
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-61(HTMLObject)[-1]
+Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 9"])
+###Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 9"]) (1)
+Action result:true
+Looking for object:Address
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-63(HTMLObject)[-1]
+Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 9"])
+###Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 9"]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+###Global.DoSendKeys: ^j (1)
+###Global.DoSendKeys: ^w (1)
+Looking for object:TD_PreviewWithParameter
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?TD Preview(HTMLObject)[-1]
+TD_PreviewWithParameter.DoClick([])
+###TD_PreviewWithParameter.DoClick([]) (1)
+Action result:true
+###Preview (-2)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Global.DoSendKeys: Encoder_XML_File9_ETD_Preview_-2024-05-30_11_45_38.pdf (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : CLRP _Regression_ATC_092.1 (-2)
+###CLRP _Regression_ATC_092.1 (-2)
+Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat
+###Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat (1)
+###Folder created and file copied to: C:\Users\Public\CLRP\Reports\2024-05-30\CLRP _Regression_ATC_092.1\\Encoder_XML_File9_ETD_Preview_-2024-05-30_11_45_38.pdf (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:2013_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+###C:\Users\Public\CLRP\300 XML\PSD-9090_BA_L10_10.xml (-2)
+Looking for object:Upload_eTD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L10_10.xml"])
+###Upload_eTD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L10_10.xml"]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Upload(HTMLObject)[-1]
+Upload_Scanned_TD.DoClick([true])
+###Upload_Scanned_TD.DoClick([true]) (1)
+Action result:true
+Looking for object:Upload_Scanned_TD_Choose_File
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"])
+###Upload_Scanned_TD_Choose_File.DoSendKeys(["C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg"]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Image.jpg(HTMLObject)[-1]
+###Global.DoWaitFor: Image_ChooseFile (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:2082_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+Looking for object:Name_of_the_Beneficiary
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-61(HTMLObject)[-1]
+Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 10"])
+###Name_of_the_Beneficiary.DoSetText(["Alwin Mangampo, Legal Age, Single. 10"]) (1)
+Action result:true
+Looking for object:Address
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-63(HTMLObject)[-1]
+Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 10"])
+###Address.DoSetText(["Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 10"]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+Looking for object:Generic_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Add Entry(HTMLObject)[-1]
+Generic_Add.DoClick([])
+###Generic_Add.DoClick([]) (1)
+Action result:true
+###Global.DoSendKeys: ^j (1)
+###Global.DoSendKeys: ^w (1)
+Looking for object:TD_PreviewWithParameter
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?TD Preview(HTMLObject)[-1]
+TD_PreviewWithParameter.DoClick([])
+###TD_PreviewWithParameter.DoClick([]) (1)
+Action result:true
+###Preview (-2)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Global.DoSendKeys: Encoder_XML_File10_ETD_Preview_-2024-05-30_11_46_14.pdf (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is : CLRP _Regression_ATC_092.1 (-2)
+###CLRP _Regression_ATC_092.1 (-2)
+Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat
+###Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat (1)
+###Folder created and file copied to: C:\Users\Public\CLRP\Reports\2024-05-30\CLRP _Regression_ATC_092.1\\Encoder_XML_File10_ETD_Preview_-2024-05-30_11_46_14.pdf (-2)
+Looking for object:Technical_Description_Preview_Screen_Close
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:2206_window_close(HTMLObject)[-1]
+Technical_Description_Preview_Screen_Close.DoClick([])
+###Technical_Description_Preview_Screen_Close.DoClick([]) (1)
+Action result:true
+Looking for object:Generic_Next
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Next(HTMLObject)[-1]
+Generic_Next.DoClick([])
+error: click: element click intercepted: Element <span class="v-button-caption">...</span> is not clickable at point (1876, 228). Other element would receive the click: <div tabindex="0" role="button" class="v-button v-widget icon" style="font-size: 1vw;">...</div>
+  (Session info: chrome=125.0.6422.78)
+###Generic_Next.DoClick([]) (1)
+Action result:true
+Looking for object:Document_Table
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:TBODY(HTMLObject)[-1]
+Document_Table.DoDOMChildrenCount([])
+###Document_Table.DoDOMChildrenCount([]) (1)
+Action result:6
+Looking for object:Document_Available
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-156(HTMLObject)[-1]
+Document_Available.DoClick([])
+error: click: element click intercepted: Element <input type="checkbox" value="on" id="gwt-uid-156" tabindex="0"> is not clickable at point (1666, 379). Other element would receive the click: <label for="gwt-uid-156"></label>
+  (Session info: chrome=125.0.6422.78)
+###Document_Available.DoClick([]) (1)
+Action result:true
+Looking for object:Document_Available
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-165(HTMLObject)[-1]
+Document_Available.DoClick([])
+error: click: element click intercepted: Element <input type="checkbox" value="on" id="gwt-uid-165" tabindex="0"> is not clickable at point (1666, 410). Other element would receive the click: <label for="gwt-uid-165"></label>
+  (Session info: chrome=125.0.6422.78)
+###Document_Available.DoClick([]) (1)
+Action result:true
+Looking for object:Document_Available
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-172(HTMLObject)[-1]
+Document_Available.DoClick([])
+error: click: element click intercepted: Element <input type="checkbox" value="on" id="gwt-uid-172" tabindex="0"> is not clickable at point (1666, 441). Other element would receive the click: <label for="gwt-uid-172"></label>
+  (Session info: chrome=125.0.6422.78)
+###Document_Available.DoClick([]) (1)
+Action result:true
+Looking for object:Document_Available
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-179(HTMLObject)[-1]
+Document_Available.DoClick([])
+error: click: element click intercepted: Element <input type="checkbox" value="on" id="gwt-uid-179" tabindex="0"> is not clickable at point (1666, 472). Other element would receive the click: <label for="gwt-uid-179"></label>
+  (Session info: chrome=125.0.6422.78)
+###Document_Available.DoClick([]) (1)
+Action result:true
+Looking for object:Document_Available
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-186(HTMLObject)[-1]
+Document_Available.DoClick([])
+error: click: element click intercepted: Element <input type="checkbox" value="on" id="gwt-uid-186" tabindex="0"> is not clickable at point (1666, 503). Other element would receive the click: <label for="gwt-uid-186"></label>
+  (Session info: chrome=125.0.6422.78)
+###Document_Available.DoClick([]) (1)
+Action result:true
+Looking for object:Document_Available
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-193(HTMLObject)[-1]
+Document_Available.DoClick([])
+error: click: element click intercepted: Element <input type="checkbox" value="on" id="gwt-uid-193" tabindex="0"> is not clickable at point (1666, 534). Other element would receive the click: <label for="gwt-uid-193"></label>
+  (Session info: chrome=125.0.6422.78)
+###Document_Available.DoClick([]) (1)
+Action result:true
+Looking for object:Document_Submit
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Submit(HTMLObject)[-1]
+Document_Submit.DoClick([])
+###Document_Submit.DoClick([]) (1)
+Action result:true
+Looking for object:Alert_Yes
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Yes(HTMLObject)[-1]
+Alert_Yes.DoClick([])
+###Alert_Yes.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+Looking for object:Filter_Transaction_Number
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Transaction Number(HTMLObject)[-1]
+Looking for object:Filter_Descending
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Descending(HTMLObject)[-1]
+Looking for object:Request_Transaction_Number
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:CLRP-20240000000911(HTMLObject)[-1]
+###Your transaction number is CLRP-20240000000911 (-2)
+Looking for object:Admin_User_Button
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?(HTMLObject)[-1]
+Admin_User_Button.DoClick([])
+###Admin_User_Button.DoClick([]) (1)
+Action result:true
+Looking for object:User_Logout
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Logout(HTMLObject)[-1]
+User_Logout.DoClick([])
+###User_Logout.DoClick([]) (1)
+Action result:true
+Error in WebDriver.Close: invalid session id
+###Global.DoSetScreenResolution: 1920, 1080 (1)
+Using library defined WebAppProfile
+Attach result: Rapise WebSpy code embedded into Selenium
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:HTML(HTMLObject)[-1]
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###clrpautodar1 (-2)
+###Pass@123 (-2)
+Looking for object:CLRP_Main_Login
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Login(HTMLObject)[-1]
+CLRP_Main_Login.DoClick([])
+###CLRP_Main_Login.DoClick([]) (1)
+Action result:true
+Looking for object:Login_Username
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:loginField(HTMLObject)[-1]
+Login_Username.DoSetText(["clrpautodar1"])
+###Login_Username.DoSetText(["clrpautodar1"]) (1)
+Action result:true
+Looking for object:Login_Password
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:passwordField(HTMLObject)[-1]
+Login_Password.DoSetText(["Pass@123"])
+###Login_Password.DoSetText(["Pass@123"]) (1)
+Action result:true
+Looking for object:Login_Button
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Login(HTMLObject)[-1]
+Login_Button.DoClick([])
+###Login_Button.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+###Global.DoWaitFor: Alert_Later (-2)
+Looking for object:Dashboard
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Dashboard(HTMLObject)[-1]
+Dashboard.DoClick([])
+###Dashboard.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?View(HTMLObject)[-1]
+Looking for object:Approver_View
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?View(HTMLObject)[-1]
+Approver_View.DoClick([])
+###Approver_View.DoClick([]) (1)
+Action result:true
+Looking for object:DAR_Encoder_Document
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Document(HTMLObject)[-1]
+DAR_Encoder_Document.DoClick([])
+###DAR_Encoder_Document.DoClick([]) (1)
+Action result:true
+###Navigate Document (-2)
+Looking for object:Document_Ok
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Ok(HTMLObject)[-1]
+Document_Ok.DoClick([])
+###Document_Ok.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Transaction Number(HTMLObject)[-1]
+Looking for object:Filter_Transaction_Number
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Transaction Number(HTMLObject)[-1]
+Looking for object:Filter_Descending
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Descending(HTMLObject)[-1]
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Approve(HTMLObject)[-1]
+Looking for object:Request_Action_Approve
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Approve(HTMLObject)[-1]
+Request_Action_Approve.DoClick([])
+###Request_Action_Approve.DoClick([]) (1)
+Action result:true
+Looking for object:Alert_Yes
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Yes(HTMLObject)[-1]
+Alert_Yes.DoClick([])
+###Alert_Yes.DoClick([]) (1)
+Action result:true
+Looking for object:Request_Password
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-22(HTMLObject)[-1]
+Request_Password.DoSetText(["Pass@123"])
+###Request_Password.DoSetText(["Pass@123"]) (1)
+Action result:true
+Looking for object:Alert_Ok
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?OK(HTMLObject)[-1]
+Alert_Ok.DoClick([])
+###Alert_Ok.DoClick([]) (1)
+Action result:true
+Looking for object:Admin_User_Button
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?(HTMLObject)[-1]
+Admin_User_Button.DoClick([])
+###Admin_User_Button.DoClick([]) (1)
+Action result:true
+Looking for object:User_Logout
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Logout(HTMLObject)[-1]
+User_Logout.DoClick([])
+###User_Logout.DoClick([]) (1)
+Action result:true
+Error in WebDriver.Close: invalid session id
+###Global.DoSetScreenResolution: 1920, 1080 (1)
+Using library defined WebAppProfile
+Attach result: Rapise WebSpy code embedded into Selenium
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:HTML(HTMLObject)[-1]
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###clrpautodar2 (-2)
+###Pass@123 (-2)
+Looking for object:CLRP_Main_Login
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Login(HTMLObject)[-1]
+CLRP_Main_Login.DoClick([])
+###CLRP_Main_Login.DoClick([]) (1)
+Action result:true
+Looking for object:Login_Username
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:loginField(HTMLObject)[-1]
+Login_Username.DoSetText(["clrpautodar2"])
+###Login_Username.DoSetText(["clrpautodar2"]) (1)
+Action result:true
+Looking for object:Login_Password
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:passwordField(HTMLObject)[-1]
+Login_Password.DoSetText(["Pass@123"])
+###Login_Password.DoSetText(["Pass@123"]) (1)
+Action result:true
+Looking for object:Login_Button
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Login(HTMLObject)[-1]
+Login_Button.DoClick([])
+###Login_Button.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+###Global.DoWaitFor: Alert_Later (-2)
+Looking for object:Dashboard
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Dashboard(HTMLObject)[-1]
+Dashboard.DoClick([])
+###Dashboard.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?View(HTMLObject)[-1]
+Looking for object:Approver_View
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?View(HTMLObject)[-1]
+Approver_View.DoClick([])
+###Approver_View.DoClick([]) (1)
+Action result:true
+Looking for object:DAR_Encoder_Document
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Document(HTMLObject)[-1]
+DAR_Encoder_Document.DoClick([])
+###DAR_Encoder_Document.DoClick([]) (1)
+Action result:true
+###Navigate Document (-2)
+Looking for object:Document_Ok
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Ok(HTMLObject)[-1]
+Document_Ok.DoClick([])
+###Document_Ok.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Transaction Number(HTMLObject)[-1]
+Looking for object:Filter_Transaction_Number
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Transaction Number(HTMLObject)[-1]
+Looking for object:Filter_Descending
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Descending(HTMLObject)[-1]
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Approve(HTMLObject)[-1]
+Looking for object:Request_Action_Approve
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Approve(HTMLObject)[-1]
+Request_Action_Approve.DoClick([])
+###Request_Action_Approve.DoClick([]) (1)
+Action result:true
+Looking for object:Alert_Yes
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Yes(HTMLObject)[-1]
+Alert_Yes.DoClick([])
+###Alert_Yes.DoClick([]) (1)
+Action result:true
+Looking for object:Request_Password
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-22(HTMLObject)[-1]
+Request_Password.DoSetText(["Pass@123"])
+###Request_Password.DoSetText(["Pass@123"]) (1)
+Action result:true
+Looking for object:Alert_Ok
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?OK(HTMLObject)[-1]
+Alert_Ok.DoClick([])
+###Alert_Ok.DoClick([]) (1)
+Action result:true
+Looking for object:Admin_User_Button
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?(HTMLObject)[-1]
+Admin_User_Button.DoClick([])
+###Admin_User_Button.DoClick([]) (1)
+Action result:true
+Looking for object:User_Logout
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Logout(HTMLObject)[-1]
+User_Logout.DoClick([])
+###User_Logout.DoClick([]) (1)
+Action result:true
+Error in WebDriver.Close: invalid session id
+###Global.DoSetScreenResolution: 1920, 1080 (1)
+Using library defined WebAppProfile
+Attach result: Rapise WebSpy code embedded into Selenium
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:HTML(HTMLObject)[-1]
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###clrpautoencode (-2)
+###Pass@123 (-2)
+Looking for object:CLRP_Main_Login
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Login(HTMLObject)[-1]
+CLRP_Main_Login.DoClick([])
+###CLRP_Main_Login.DoClick([]) (1)
+Action result:true
+Looking for object:Login_Username
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:loginField(HTMLObject)[-1]
+Login_Username.DoSetText(["clrpautoencode"])
+###Login_Username.DoSetText(["clrpautoencode"]) (1)
+Action result:true
+Looking for object:Login_Password
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:passwordField(HTMLObject)[-1]
+Login_Password.DoSetText(["Pass@123"])
+###Login_Password.DoSetText(["Pass@123"]) (1)
+Action result:true
+Looking for object:Login_Button
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Login(HTMLObject)[-1]
+Login_Button.DoClick([])
+###Login_Button.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+###Global.DoWaitFor: Alert_Later (-2)
+Looking for object:Dashboard
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Dashboard(HTMLObject)[-1]
+Dashboard.DoClick([])
+###Dashboard.DoClick([]) (1)
+Action result:true
+Looking for object:MyRequest_Status_Label
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Status(HTMLObject)[-1]
+MyRequest_Status_Label.DoClick([])
+###MyRequest_Status_Label.DoClick([]) (1)
+Action result:true
+Looking for object:MyRequest_Status_Label
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Status(HTMLObject)[-1]
+MyRequest_Status_Label.DoClick([])
+###MyRequest_Status_Label.DoClick([]) (1)
+Action result:true
+Looking for object:Encoder_Print
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Print(HTMLObject)[-1]
+Encoder_Print.DoClick([])
+###Encoder_Print.DoClick([]) (1)
+Action result:true
+###Print Transaction (-2)
+###Global.DoSendKeys: {ESC} (1)
+Looking for object:Admin_User_Button
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?(HTMLObject)[-1]
+Admin_User_Button.DoClick([])
+###Admin_User_Button.DoClick([]) (1)
+Action result:true
+Looking for object:User_Logout
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Logout(HTMLObject)[-1]
+User_Logout.DoClick([])
+###User_Logout.DoClick([]) (1)
+Action result:true
+###CLRP _Regression_ATC_092.1 (1)
+Test execution done
+##############################################################
+Test Pass: CLRP _Regression_ATC_092.1,  (Passed:402 Failed:0 Time:600.264s)
+Test Session Status: Pass Time: 602.411s
+##############################################################

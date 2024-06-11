@@ -1,0 +1,28 @@
+<log type="Session" name="LT-IMC-QA-0174:laresuser" at="2024-05-27 11:07:34.598"/>
+<log type="Test" name="CLRP _Regression_ATC_085.1" status="Info"  at="2024-05-27 11:07:35.393"><data type="text">Test Started: C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\CLRP _Regression_ATC_085.1\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2024-05-27 11:07:35.393"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-27 11:07:35.416" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-27 11:07:35.416"/>
+<log type="Message" name="The Value is : Transfer Certificate of Title" status="Info"  at="2024-05-27 11:07:35.416"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-27 11:07:35.428" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-27 11:07:35.433"/>
+<log type="Message" name="The Value is : TCT-001" status="Info"  at="2024-05-27 11:07:35.433"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-27 11:07:35.443" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-27 11:07:35.448"/>
+<log type="Message" name="The Value is : CCLOA-101" status="Info"  at="2024-05-27 11:07:35.448"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-27 11:07:35.453" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-27 11:07:35.463"/>
+<log type="Message" name="The Value is : Unit 301, Mango Building, 1234 J.P. Rizal Avenue, Barangay West Rembo, Makati City, Metro Manila, 1215, Philippines. Attention: Ms. Maria Santos, Head of Operations. Company Name: Future Innovations Inc. Building Name: Mango Building, Floor 3. Landmark: Near Makati Park and Garden. Phone: +63 (2) 876-5432. Email: maria.santos@futureinnovations.ph. Office Hours: Monday to Friday, 8:00 AM to 5:00 PM. Mailing Address: P.O. Box 5678, Makati Central Post Office, Makati City, Metro Manila, 1215, Philippines. Website: www.futureinnovations.ph/contact-us." status="Info"  at="2024-05-27 11:07:35.463"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-27 11:07:35.473" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-27 11:07:35.479"/>
+<log type="Message" name="The Value is : 200" status="Info"  at="2024-05-27 11:07:35.479"/>
+<log type="Assert" name="Title_Type.DoSetText([&quot;Transfer Certificate of Title&quot;])" status="Pass"  at="2024-05-27 11:07:40.200" comment="Returned Value: true" />
+<log type="Assert" name="Generic_List.DoClick([])" status="Pass"  at="2024-05-27 11:07:42.578" comment="Returned Value: true" />
+<log type="Assert" name="Title_Number.DoSetText([&quot;TCT-001&quot;])" status="Pass"  at="2024-05-27 11:07:44.033" comment="Returned Value: true" />
+<log type="Assert" name="CCLOA_No..DoSetText([&quot;CCLOA-101&quot;])" status="Pass"  at="2024-05-27 11:07:45.497" comment="Returned Value: true" />
+<log type="Assert" name="Location_of_Property.DoSetText([&quot;Unit 301, Mango Building, 1234 J.P. Rizal Avenue, Barangay West Rembo, Makati City, Metro Manila, 1215, Philippines. Attention: Ms. Maria Santos, Head of Operations. Company Name: Future Innovations Inc. Building Name: Mango Building, Floor 3. Landmark: Near Makati Park and Garden. Phone: +63 (2) 876-5432. Email: maria.santos@futureinnovations.ph. Office Hours: Monday to Friday, 8:00 AM to 5:00 PM. Mailing Address: P.O. Box 5678, Makati Central Post Office, Makati City, Metro Manila, 1215, Philippines. Website: www.futureinnovations.ph/contact-us.&quot;])" status="Pass"  at="2024-05-27 11:07:47.523" comment="Returned Value: true" />
+<log type="Assert" name="Total_Area.DoSetText([200])" status="Pass"  at="2024-05-27 11:07:48.943" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Add.DoClick([])" status="Pass"  at="2024-05-27 11:07:51.249" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Next.DoClick([])" status="Pass"  at="2024-05-27 11:07:53.630" comment="Returned Value: true" />
+<log type="Test" name="CLRP _Regression_ATC_085.1" status="Pass" closed="CLRP _Regression_ATC_085.1" _guid="undefined"  at="2024-05-27 11:07:53.632" comment="Passed:18 Failed:0 Time:18.326s" />

@@ -1,0 +1,31 @@
+<log type="Session" name="LT-IMC-QA-0174:laresuser" at="2024-06-06 12:50:08.186"/>
+<log type="Test" name="CLRP _Regression_ATC_094" status="Info"  at="2024-06-06 12:50:09.490"><data type="text">Test Started: C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\CLRP _Regression_ATC_094\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2024-06-06 12:50:09.495"/>
+<log type="Assert" name="Global.DoSendKeys: ^j" status="Pass"  at="2024-06-06 12:50:09.501"/>
+<log type="Assert" name="Global.DoSendKeys: ^w" status="Pass"  at="2024-06-06 12:50:09.660"/>
+<log type="Assert" name="Global.DoSendKeys: {TAB}" status="Pass"  at="2024-06-06 12:50:09.726"/>
+<log type="Assert" name="Global.DoSendKeys: {TAB}" status="Pass"  at="2024-06-06 12:50:09.748"/>
+<log type="Assert" name="Global.DoSendKeys: {TAB}" status="Pass"  at="2024-06-06 12:50:09.771"/>
+<log type="Assert" name="Global.DoSendKeys: {TAB}" status="Pass"  at="2024-06-06 12:50:09.795"/>
+<log type="Assert" name="Global.DoSendKeys: {TAB}" status="Pass"  at="2024-06-06 12:50:09.827"/>
+<log type="Assert" name="Global.DoSendKeys: {TAB}" status="Pass"  at="2024-06-06 12:50:09.848"/>
+<log type="Assert" name="Global.DoSendKeys: {TAB}" status="Pass"  at="2024-06-06 12:50:09.869"/>
+<log type="Assert" name="Global.DoSendKeys: {TAB}" status="Pass"  at="2024-06-06 12:50:09.896"/>
+<log type="Assert" name="Global.DoSendKeys: {ENTER}" status="Pass"  at="2024-06-06 12:50:09.919"/>
+<log type="Assert" name="Global.DoSendKeys: ETD Application Form-2024-06-06_12_50_09.pdf" status="Pass"  at="2024-06-06 12:50:12.966"/>
+<log type="Assert" name="Global.DoSendKeys: {ENTER}" status="Pass"  at="2024-06-06 12:50:14.207"/>
+<log type="Message" name="CLRP _Regression_ATC_094" status="Info"  at="2024-06-06 12:50:14.229"/>
+<log type="Assert" name="Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat" status="Pass"  at="2024-06-06 12:50:14.346" comment="Process created, ID: 19948" />
+<log type="Message" name="Folder created and file copied to: C:\Users\Public\CLRP\Reports\2024-06-06\CLRP _Regression_ATC_094\\ETD Application Form-2024-06-06_12_50_09.pdf" status="Info"  at="2024-06-06 12:50:14.358"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-06-06 12:50:14.431" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-06-06 12:50:14.441"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-06-06 12:50:14.459" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-06-06 12:50:14.467"/>
+<log type="Message" name="Set value: ETD Application Form-2024-06-06_12_50_09.pdf in column: File Name, row: 1, for TCID: CLRP _Regression_ATC_094" status="Info"  at="2024-06-06 12:50:14.534"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-06-06 12:50:14.561" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-06-06 12:50:14.566"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-06-06 12:50:14.619" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-06-06 12:50:14.628"/>
+<log type="Message" name="Set value: C:\Users\Public\CLRP\Reports\2024-06-06\CLRP _Regression_ATC_094\\ETD Application Form-2024-06-06_12_50_09.pdf in column: Location, row: 1, for TCID: CLRP _Regression_ATC_094" status="Info"  at="2024-06-06 12:50:14.686"/>
+<log type="Test" name="CLRP _Regression_ATC_094" status="Pass" closed="CLRP _Regression_ATC_094" _guid="undefined"  at="2024-06-06 12:50:14.696" comment="Passed:22 Failed:0 Time:5.358s" />

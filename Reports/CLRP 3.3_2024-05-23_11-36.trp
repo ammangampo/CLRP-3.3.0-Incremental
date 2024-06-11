@@ -1,0 +1,5 @@
+<log type="Session" name="LT-IMC-QA-0174:laresuser" at="2024-05-23 11:36:26.725"/>
+<log type="Test" name="CLRP 3.3.0 Incremental and Maintenance" status="Info"  at="2024-05-23 11:36:27.636"><data type="text">Test Started: C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2024-05-23 11:36:27.641"/>
+<log type="Message" name="MessageBox: C:\Users\laresuser\Downloads\" status="Info"  at="2024-05-23 11:36:27.641"/>

@@ -1,0 +1,8 @@
+<log type="Session" name="LT-IMC-QA-0174:laresuser" at="2024-05-28 15:18:51.000"/>
+<log type="Test" name="CLRP 3.3.0 Incremental and Maintenance" status="Info"  at="2024-05-28 15:18:52.261"><data type="text">Test Started: C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2024-05-28 15:18:52.268"/>
+<log type="Assert" name="Remove.DoClick([])" status="Pass"  at="2024-05-28 15:18:56.540" comment="Returned Value: true" />
+<log type="Assert" name="Global.DoSendKeys: ^+{DELETE}" status="Pass"  at="2024-05-28 15:18:56.559"/>
+<log type="Assert" name="Global.DoSendKeys: {ENTER}" status="Pass"  at="2024-05-28 15:18:56.716"/>
+<log type="Test" name="CLRP 3.3.0 Incremental and Maintenance" status="Pass" closed="CLRP 3.3.0 Incremental and Maintenance" _guid="undefined"  at="2024-05-28 15:18:56.739" comment="Passed:3 Failed:0 Time:4.653s" />

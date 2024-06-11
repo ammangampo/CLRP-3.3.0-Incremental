@@ -1,0 +1,26 @@
+<log type="Session" name="LT-IMC-QA-0174:laresuser" at="2024-05-27 11:02:28.597"/>
+<log type="Test" name="CLRP _Regression_ATC_085.1" status="Info"  at="2024-05-27 11:02:29.363"><data type="text">Test Started: C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\CLRP _Regression_ATC_085.1\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2024-05-27 11:02:29.368"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-27 11:02:29.388" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-27 11:02:29.399"/>
+<log type="Message" name="The Value is : Parcelization of Collective CLOA - Issue cTitle (With Subdivision Plan Approved by DENR) - Voluntary" status="Info"  at="2024-05-27 11:02:29.399"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-27 11:02:29.403" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-27 11:02:29.413"/>
+<log type="Message" name="The Value is : PSD-9090" status="Info"  at="2024-05-27 11:02:29.415"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-27 11:02:29.423" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-27 11:02:29.423"/>
+<log type="Message" name="The Value is :  " status="Info"  at="2024-05-27 11:02:29.423"/>
+<log type="Assert" name="Registry_Of_Deeds_Textbox.DoSendKeys([&quot;Province of Lanao del Sur&quot;])" status="Pass"  at="2024-05-27 11:02:33.174" comment="Returned Value: true" />
+<log type="Assert" name="Generic_List.DoClick([])" status="Pass"  at="2024-05-27 11:02:39.016" comment="Returned Value: true" />
+<log type="Assert" name="Global.DoSendKeys: {ENTER}" status="Pass"  at="2024-05-27 11:02:39.016"/>
+<log type="Assert" name="RoD_Minor_Transaction_Textbox.DoSetText([&quot;Parcelization of Collective CLOA - Issue cTitle (With Subdivision Plan Approved by DENR) - Voluntary&quot;])" status="Pass"  at="2024-05-27 11:02:40.904" comment="Returned Value: true" />
+<log type="Assert" name="Generic_List.DoClick([])" status="Pass"  at="2024-05-27 11:02:42.761" comment="Returned Value: true" />
+<log type="Assert" name="RoD_Survey_Plan_Number.DoSetText([&quot;PSD-9090&quot;])" status="Pass"  at="2024-05-27 11:02:44.447" comment="Returned Value: true" />
+<log type="Assert" name="RoD_Number_Of_Titles.DoSetText([&quot; &quot;])" status="Pass"  at="2024-05-27 11:02:48.476" comment="Returned Value: true" />
+<log type="Assert" name="RoD_Select_Tie_Point.DoClick([])" status="Pass"  at="2024-05-27 11:02:52.327" comment="Returned Value: true" />
+<log type="Assert" name="STP_Place_Textbox.DoSetText([&quot;QUEZON CITY&quot;])" status="Pass"  at="2024-05-27 11:02:54.043" comment="Returned Value: true" />
+<log type="Assert" name="Global.DoSendKeys: {ENTER}" status="Pass"  at="2024-05-27 11:02:54.045"/>
+<log type="Assert" name="ST_ID_Description_Select.DoClick([])" status="Pass"  at="2024-05-27 11:02:55.837" comment="Returned Value: true" />
+<log type="Assert" name="STP_Finish_Selection.DoClick([])" status="Pass"  at="2024-05-27 11:02:57.220" comment="Returned Value: true" />
+<log type="Test" name="CLRP _Regression_ATC_085.1" status="Pass" closed="CLRP _Regression_ATC_085.1" _guid="undefined"  at="2024-05-27 11:02:57.222" comment="Passed:18 Failed:0 Time:27.948s" />

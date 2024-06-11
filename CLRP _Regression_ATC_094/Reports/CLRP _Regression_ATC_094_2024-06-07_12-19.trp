@@ -1,0 +1,29 @@
+<log type="Session" name="LT-IMC-QA-0174:laresuser" at="2024-06-07 12:18:14.338"/>
+<log type="Test" name="CLRP _Regression_ATC_094" status="Info"  at="2024-06-07 12:18:15.139"><data type="text">Test Started: C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\CLRP _Regression_ATC_094\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2024-06-07 12:18:15.139"/>
+<log type="Assert" name="Global.DoSetScreenResolution: 1920, 1080" status="Pass"  at="2024-06-07 12:18:15.144"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-06-07 12:18:19.400" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-06-07 12:18:19.403"/>
+<log type="Message" name="automationclrp" status="Info"  at="2024-06-07 12:18:19.406"/>
+<log type="Message" name="Pass@123" status="Info"  at="2024-06-07 12:18:19.412"/>
+<log type="Assert" name="CLRP_Main_Login.DoClick([])" status="Pass"  at="2024-06-07 12:18:20.781" comment="Returned Value: true" />
+<log type="Assert" name="Login_Username.DoSetText([&quot;automationclrp&quot;])" status="Pass"  at="2024-06-07 12:18:22.177" comment="Returned Value: true" />
+<log type="Assert" name="Login_Password.DoSetText([&quot;Pass@123&quot;])" status="Pass"  at="2024-06-07 12:18:23.612" comment="Returned Value: true" />
+<log type="Assert" name="Login_Button.DoClick([])" status="Pass"  at="2024-06-07 12:18:24.942" comment="Returned Value: true" />
+<log type="Message" name="Global.DoWaitFor: Alert_Later" status="Info"  at="2024-06-07 12:18:26.522" comment="Return value: Later(HTMLObject)[-1]" />
+<log type="Assert" name="Alert_Later.DoClick([])" status="Pass"  at="2024-06-07 12:18:27.867" comment="Returned Value: true" />
+<log type="Assert" name="CLRP_Submit_ETD.DoClick([])" status="Pass"  at="2024-06-07 12:18:30.255" comment="Returned Value: true" />
+<log type="Assert" name="ETD_Submit_Select_Tie_Point.DoClick([])" status="Pass"  at="2024-06-07 12:18:31.620" comment="Returned Value: true" />
+<log type="Assert" name="ETD_Submit_Tie_Point_Place.DoClick([])" status="Pass"  at="2024-06-07 12:18:32.964" comment="Returned Value: true" />
+<log type="Assert" name="STP_Place_Textbox.DoSendKeys([&quot;QUEZON CITY&quot;])" status="Pass"  at="2024-06-07 12:18:34.034" comment="Returned Value: true" />
+<log type="Assert" name="Generic_List.DoClick([])" status="Pass"  at="2024-06-07 12:18:37.398" comment="Returned Value: true" />
+<log type="Assert" name="ETD_Submit_Tie_Point_Place_Select.DoClick([])" status="Pass"  at="2024-06-07 12:18:38.754" comment="Returned Value: true" />
+<log type="Assert" name="ETD_Submit_Tie_Point_Finish_Selection.DoClick([])" status="Pass"  at="2024-06-07 12:18:40.124" comment="Returned Value: true" />
+<log type="Assert" name="ETD_Submit_RegistryOfDeeds.DoClick([])" status="Pass"  at="2024-06-07 12:18:41.485" comment="Returned Value: true" />
+<log type="Assert" name="Global.DoSendKeys: Province of Lanao del Sur" status="Pass"  at="2024-06-07 12:18:41.485"/>
+<log type="Assert" name="Global.DoSendKeys: {ENTER}" status="Pass"  at="2024-06-07 12:18:43.044"/>
+<log type="Assert" name="ETD_Submit_No.Parcels.DoSetText([&quot;2&quot;])" status="Pass"  at="2024-06-07 12:18:44.478" comment="Returned Value: true" />
+<log type="Assert" name="ETD_Submit_PlanNumber.DoSetText([&quot;PSD-9091&quot;])" status="Pass"  at="2024-06-07 12:18:45.874" comment="Returned Value: true" />
+<log type="Assert" name="ETD_Submit_Upload_eTD_Upload.DoClick([])" status="Pass"  at="2024-06-07 12:18:52.224" comment="Returned Value: true" />
+<log type="Assert" name="ETD_Submit_Upload_eTD_Upload.DoSendKeys([&quot;C:\\Users\\Public\\CLRP\\XML File\\PSD-9090_BA_L2_2.xml&quot;])" status="Pass"  at="2024-06-07 12:18:53.298" comment="Returned Value: true" />

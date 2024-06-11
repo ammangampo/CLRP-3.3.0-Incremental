@@ -1,0 +1,71 @@
+<log type="Session" name="LT-IMC-QA-0174:laresuser" at="2024-05-29 15:05:20.343"/>
+<log type="Test" name="CLRP _Regression_ATC_092.1" status="Info"  at="2024-05-29 15:05:21.151"><data type="text">Test Started: C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\CLRP _Regression_ATC_092.1\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2024-05-29 15:05:21.153"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 15:05:21.174" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 15:05:21.186"/>
+<log type="Message" name="The Value is : Alwin Mangampo, Legal Age, Single." status="Info"  at="2024-05-29 15:05:21.190"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 15:05:21.197" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 15:05:21.200"/>
+<log type="Message" name="The Value is : Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan" status="Info"  at="2024-05-29 15:05:21.202"/>
+<log type="Assert" name="Global.DoKillByPid: 13272" status="Info" realStatus="Pass"  at="2024-05-29 15:05:21.663"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 15:05:26.145" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 15:05:26.148"/>
+<log type="Message" name="clrpautoencode" status="Info"  at="2024-05-29 15:05:26.151"/>
+<log type="Message" name="Pass@123" status="Info"  at="2024-05-29 15:05:26.155"/>
+<log type="Assert" name="CLRP_Main_Login.DoClick([])" status="Pass"  at="2024-05-29 15:05:27.556" comment="Returned Value: true" />
+<log type="Assert" name="Login_Username.DoSetText([&quot;clrpautoencode&quot;])" status="Pass"  at="2024-05-29 15:05:29.013" comment="Returned Value: true" />
+<log type="Assert" name="Login_Password.DoSetText([&quot;Pass@123&quot;])" status="Pass"  at="2024-05-29 15:05:30.505" comment="Returned Value: true" />
+<log type="Assert" name="Login_Button.DoClick([])" status="Pass"  at="2024-05-29 15:05:31.861" comment="Returned Value: true" />
+<log type="Message" name="Global.DoWaitFor: Alert_Later" status="Info"  at="2024-05-29 15:05:36.928" comment="Return value: false" />
+<log type="Assert" name="Dashboard.DoClick([])" status="Pass"  at="2024-05-29 15:05:38.276" comment="Returned Value: true" />
+<log type="Assert" name="Create_Request.DoClick([])" status="Pass"  at="2024-05-29 15:05:43.923" comment="Returned Value: true" />
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 15:05:43.925" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 15:05:43.936"/>
+<log type="Message" name="The Value is : Parcelization of Collective CLOA - Issue cTitle (With Subdivision Plan Approved by DENR) - Voluntary" status="Info"  at="2024-05-29 15:05:43.939"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 15:05:43.945" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 15:05:43.945"/>
+<log type="Message" name="The Value is : PSD-9090" status="Info"  at="2024-05-29 15:05:43.953"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 15:05:43.960" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 15:05:43.965"/>
+<log type="Message" name="The Value is : 10" status="Info"  at="2024-05-29 15:05:43.965"/>
+<log type="Assert" name="Registry_Of_Deeds_Textbox.DoSendKeys([&quot;Province of Lanao del Sur&quot;])" status="Pass"  at="2024-05-29 15:05:45.122" comment="Returned Value: true" />
+<log type="Assert" name="Generic_List.DoClick([])" status="Pass"  at="2024-05-29 15:05:46.481" comment="Returned Value: true" />
+<log type="Assert" name="Global.DoSendKeys: {ENTER}" status="Pass"  at="2024-05-29 15:05:46.485"/>
+<log type="Assert" name="RoD_Minor_Transaction_Textbox.DoSetText([&quot;Parcelization of Collective CLOA - Issue cTitle (With Subdivision Plan Approved by DENR) - Voluntary&quot;])" status="Pass"  at="2024-05-29 15:05:48.236" comment="Returned Value: true" />
+<log type="Assert" name="Generic_List.DoClick([])" status="Pass"  at="2024-05-29 15:05:49.570" comment="Returned Value: true" />
+<log type="Assert" name="RoD_Survey_Plan_Number.DoSetText([&quot;PSD-9090&quot;])" status="Pass"  at="2024-05-29 15:05:51.000" comment="Returned Value: true" />
+<log type="Assert" name="RoD_Number_Of_Titles.DoSetText([10])" status="Pass"  at="2024-05-29 15:05:52.432" comment="Returned Value: true" />
+<log type="Assert" name="RoD_Select_Tie_Point.DoClick([])" status="Pass"  at="2024-05-29 15:05:54.819" comment="Returned Value: true" />
+<log type="Assert" name="STP_Place_Textbox.DoSetText([&quot;QUEZON CITY&quot;])" status="Pass"  at="2024-05-29 15:05:56.309" comment="Returned Value: true" />
+<log type="Assert" name="Global.DoSendKeys: {ENTER}" status="Pass"  at="2024-05-29 15:05:56.309"/>
+<log type="Assert" name="ST_ID_Description_Select.DoClick([])" status="Pass"  at="2024-05-29 15:05:58.365" comment="Returned Value: true" />
+<log type="Assert" name="STP_Finish_Selection.DoClick([])" status="Pass"  at="2024-05-29 15:05:59.708" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Next.DoClick([])" status="Pass"  at="2024-05-29 15:06:02.105" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Next.DoClick([])" status="Pass"  at="2024-05-29 15:06:04.490" comment="Returned Value: true" />
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 15:06:07.505" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 15:06:07.509"/>
+<log type="Message" name="The Value is : Transfer Certificate of Title" status="Info"  at="2024-05-29 15:06:07.511"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 15:06:07.515" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 15:06:07.515"/>
+<log type="Message" name="The Value is : TCT-001" status="Info"  at="2024-05-29 15:06:07.523"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 15:06:07.533" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 15:06:07.536"/>
+<log type="Message" name="The Value is : CCLOA-101" status="Info"  at="2024-05-29 15:06:07.536"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 15:06:07.549" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 15:06:07.551"/>
+<log type="Message" name="The Value is : 277 Looban II, Loma de Gato, Marilao, Bulacan. 3019 Uppercase letters (A-Z and Ñ), Numeric (0-9), Lowercase letters (a-z and ñ), Number sign (#), Apostrophe (‘), Period (.), Comma (,) Dash (-), Slash (/), Spaces and Open and Close parenthesis. A-Z a-z 0-9" status="Info"  at="2024-05-29 15:06:07.554"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 15:06:07.560" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 15:06:07.565"/>
+<log type="Message" name="The Value is : 1000" status="Info"  at="2024-05-29 15:06:07.565"/>
+<log type="Assert" name="Title_Type.DoSetText([&quot;Transfer Certificate of Title&quot;])" status="Pass"  at="2024-05-29 15:06:09.770" comment="Returned Value: true" />
+<log type="Assert" name="Generic_List.DoClick([])" status="Pass"  at="2024-05-29 15:06:12.163" comment="Returned Value: true" />
+<log type="Assert" name="Title_Number.DoSetText([&quot;TCT-001&quot;])" status="Pass"  at="2024-05-29 15:06:13.615" comment="Returned Value: true" />
+<log type="Assert" name="CCLOA_No..DoSetText([&quot;CCLOA-101&quot;])" status="Pass"  at="2024-05-29 15:06:15.030" comment="Returned Value: true" />
+<log type="Assert" name="Location_of_Property.DoSetText([&quot;277 Looban II, Loma de Gato, Marilao, Bulacan. 3019 Uppercase letters (A-Z and Ñ), Numeric (0-9), Lowercase letters (a-z and ñ), Number sign (#), Apostrophe (‘), Period (.), Comma (,) Dash (-), Slash (/), Spaces and Open and Close parenthesis. A-Z a-z 0-9&quot;])" status="Pass"  at="2024-05-29 15:06:16.907" comment="Returned Value: true" />
+<log type="Assert" name="Total_Area.DoSetText([1000])" status="Pass"  at="2024-05-29 15:06:18.320" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Add.DoClick([])" status="Pass"  at="2024-05-29 15:06:20.621" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Next.DoClick([])" status="Pass"  at="2024-05-29 15:06:23.007" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Next.DoClick([])" status="Pass"  at="2024-05-29 15:06:27.402" comment="Returned Value: true" />
+<log type="Message" name="C:\Users\Public\CLRP\300 XML\PSD-9090_BA_L1_1.xml" status="Info"  at="2024-05-29 15:06:27.405"/>
+<log type="Assert" name="Upload_eTD_Choose_File.DoSendKeys([&quot;C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L1_1.xml&quot;])" status="Pass"  at="2024-05-29 15:06:28.490" comment="Returned Value: true" />

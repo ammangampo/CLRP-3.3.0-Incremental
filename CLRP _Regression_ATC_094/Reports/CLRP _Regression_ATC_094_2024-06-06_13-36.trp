@@ -1,0 +1,30 @@
+<log type="Session" name="LT-IMC-QA-0174:laresuser" at="2024-06-06 13:36:46.653"/>
+<log type="Test" name="CLRP _Regression_ATC_094" status="Info"  at="2024-06-06 13:36:48.073"><data type="text">Test Started: C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\CLRP _Regression_ATC_094\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2024-06-06 13:36:48.076"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-06-06 13:36:48.098" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-06-06 13:36:48.109"/>
+<log type="Message" name="The Value is : C:\Users\Public\CLRP\Reports\2024-06-06\CLRP _Regression_ATC_094\ETD Application Form-2024-06-06_13_35_01.pdf" status="Info"  at="2024-06-06 13:36:48.111"/>
+<log type="Message" name="C:\Users\Public\CLRP\Reports\2024-06-06\CLRP _Regression_ATC_094\ETD Application Form-2024-06-06_13_35_01.pdf" status="Info"  at="2024-06-06 13:36:48.113"/>
+<log type="Message" name="
+
+
+REPUBLIKA NG PILIPINAS
+KAGAWARAN NG KATARUNGAN
+PANGASIWAAN SA PATALAAN NG LUPAIN
+(LAND REGISTRATION AUTHORITY)
+
+East Avenue cor. NIA Road
+Quezon City
+
+CLRP_eTD-20240000000377
+Registry of Deeds for Province of Lanao del Sur
+ETD APPLICATION FORM
+CLRP Reference Number: CLRP_eTD-20240000000377	Date: 06/06/2024 01:33 PM
+ Plan Number	 Count of Uploaded eTD
+PSD-9090	2
+ Total Number of eTD:	2
+Page 1 of	 1
+" status="Info"  at="2024-06-06 13:36:48.382"/>
+<log type="Message" name="CLRP Reference Number: CLRP_eTD-20240000000377" status="Info"  at="2024-06-06 13:36:48.399"/>
+<log type="Test" name="CLRP _Regression_ATC_094" status="Pass" closed="CLRP _Regression_ATC_094" _guid="undefined"  at="2024-06-06 13:36:48.406" comment="Passed:2 Failed:0 Time:0.482s" />

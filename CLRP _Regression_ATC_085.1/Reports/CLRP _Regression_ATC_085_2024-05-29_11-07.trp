@@ -1,0 +1,8 @@
+<log type="Session" name="LT-IMC-QA-0174:laresuser" at="2024-05-29 11:07:29.088"/>
+<log type="Test" name="CLRP _Regression_ATC_085.1" status="Info"  at="2024-05-29 11:07:30.434"><data type="text">Test Started: C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\CLRP _Regression_ATC_085.1\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2024-05-29 11:07:30.438"/>
+<log type="Assert" name="Global.DoKillByPid: 23988" status="Info" realStatus="Pass"  at="2024-05-29 11:07:31.158"/>
+<log type="Assert" name="Execution terminated by user" status="Fail"  at="2024-05-29 11:07:42.176"><data type="link" url="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\CLRP _Regression_ATC_085.1\Main.js(13,1)" text="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\CLRP _Regression_ATC_085.1\Main.js(13,1)"/>
+<data type="text">var src = Navigator.SeSFind(&quot;//iframe[@src]&quot;).DoDOMGetAttribute(&apos;src&apos;);</data>
+</log>

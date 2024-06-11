@@ -1,0 +1,17 @@
+<log type="Session" name="LT-IMC-QA-0174:laresuser" at="2024-05-28 08:37:04.368"/>
+<log type="Test" name="CLRP _Regression_ATC_085.1" status="Info"  at="2024-05-28 08:37:05.236"><data type="text">Test Started: C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\CLRP _Regression_ATC_085.1\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2024-05-28 08:37:05.239"/>
+<log type="Assert" name="Global.DoSetScreenResolution: 1920, 1080" status="Pass"  at="2024-05-28 08:37:05.241"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-28 08:37:09.644" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-28 08:37:09.647"/>
+<log type="Message" name="clrpautodar1" status="Info"  at="2024-05-28 08:37:09.652"/>
+<log type="Message" name="Pass@123" status="Info"  at="2024-05-28 08:37:09.656"/>
+<log type="Assert" name="CLRP_Main_Login.DoClick([])" status="Pass"  at="2024-05-28 08:37:11.063" comment="Returned Value: true" />
+<log type="Assert" name="Login_Username.DoSetText([&quot;clrpautodar1&quot;])" status="Pass"  at="2024-05-28 08:37:12.492" comment="Returned Value: true" />
+<log type="Assert" name="Login_Password.DoSetText([&quot;Pass@123&quot;])" status="Pass"  at="2024-05-28 08:37:13.947" comment="Returned Value: true" />
+<log type="Assert" name="Login_Button.DoClick([])" status="Pass"  at="2024-05-28 08:37:15.299" comment="Returned Value: true" />
+<log type="Message" name="Global.DoWaitFor: Alert_Later" status="Info"  at="2024-05-28 08:37:20.356" comment="Return value: false" />
+<log type="Assert" name="Dashboard.DoClick([])" status="Pass"  at="2024-05-28 08:37:21.730" comment="Returned Value: true" />
+<log type="Assert" name="Approver_View.DoClick([])" status="Pass"  at="2024-05-28 08:37:26.196" comment="Returned Value: true" />
+<log type="Test" name="CLRP _Regression_ATC_085.1" status="Pass" closed="CLRP _Regression_ATC_085.1" _guid="undefined"  at="2024-05-28 08:37:26.197" comment="Passed:9 Failed:0 Time:21.057s" />

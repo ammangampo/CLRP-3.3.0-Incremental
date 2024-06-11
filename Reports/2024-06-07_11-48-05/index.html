@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <style>
+
+  h3 {
+    margin-top: 30px;
+  }
+
+  /* Step 1: Common Properties: All required to make icons render reliably */
+  .icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Step 2: Reference Individual Icons */
+  h1::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f4fb\0020";
+  }
+
+  h3::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f54b\0020";
+  }
+  </style>
+  <script>
+    function assignClasses(tag, value)
+    {
+      var elements = document.getElementsByTagName(tag);
+      for (var i = 0; i < elements.length; i++)
+      {
+        var el = elements[i];      
+        el.setAttribute("class", value);
+      }  
+    }
+    
+    function getStatus()
+    {
+      var element = document.getElementsByTagName("body")[0];
+      var content = element.innerText;
+      if(content.indexOf(" Failed:0 ") != -1)
+      {
+        return 1;
+      }
+      else if (content.indexOf(" Failed:") != -1)
+      {
+        return -1;
+      }
+      return 0;
+    }
+    
+    function getStatusClass()
+    {
+      switch(getStatus())
+      {
+        case 1:
+          return "alert alert-success";
+        case 0:
+          return "alert alert-warning";
+        case -1:
+          return "alert alert-danger";
+      }
+      return "";
+    }
+    
+    function renderPage()
+    {
+      assignClasses("body", "bg-light");
+      assignClasses("h1", getStatusClass());
+      assignClasses("h3", "alert alert-info");
+      assignClasses("img", "img-fluid");
+    }
+  </script>  
+</head>
+<body onload="renderPage()"><h1>Execution 2024-06-07_11-48-05</h1>
+<h3>1: Prompt displayed: Invalid plan number format.</h3>
+<img src='Step1.png'/>
+<h3>2: Prompt displayed: Are you sure you want to delete all encoded technical description?</h3>
+<img src='Step2.png'/>
+<h3>3: Fields content not deleted after clicking Clear button</h3>
+<img src='Step3.png'/>
+<h3>4: Encoded Plan Information</h3>
+<img src='Step4.png'/>
+<h3>5: Prompt displayed: Are you sure you want to delete all encoded technical description?</h3>
+<img src='Step5.png'/>
+<h3>6: Tie Point ID is not deleted.</h3>
+<img src='Step6.png'/>
+<h3>7: Plan No is not deleted.</h3>
+<img src='Step7.png'/>
+<h3>8: Description Tie Point ID is not deleted.</h3>
+<img src='Step8.png'/>
+<h3>9: TOTAL No. of Lots on Approved Plan is not deleted.</h3>
+<img src='Step9.png'/>
+<h3>10: TOTAL No. of Encoded Lots is not deleted.</h3>
+<img src='Step10.png'/>
+<h3>11: TOTAL No. of Lots Remaining is not deleted.</h3>
+<img src='Step11.png'/>
+<h3>12: Tie Point is not deleted.</h3>
+<img src='Step12.png'/>
+<h3>13: Block No is deleted.</h3>
+<img src='Step13.png'/>
+<h3>14: Lot No is deleted.</h3>
+<img src='Step14.png'/>
+<h3>15: Portion of is deleted.</h3>
+<img src='Step15.png'/>
+<h3>16: Location is deleted.</h3>
+<img src='Step16.png'/>
+<h3>17: Area is deleted.</h3>
+<img src='Step17.png'/>
+<h3>18: Unit of Measure is deleted.</h3>
+<img src='Step18.png'/>
+<h3>19: Description of Corners is deleted.</h3>
+<img src='Step19.png'/>
+<h3>20: Survey System is deleted.</h3>
+<img src='Step20.png'/>
+<h3>21: Bearing is deleted.</h3>
+<img src='Step21.png'/>
+<h3>22: LRC/Records No is deleted.</h3>
+<img src='Step22.png'/>
+<h3>23: Declination is deleted.</h3>
+<img src='Step23.png'/>
+<h3>24: Date of Original Survey is deleted.</h3>
+<img src='Step24.png'/>
+<h3>25: Date of Survey Executed is deleted.</h3>
+<img src='Step25.png'/>
+<h3>26: Date of Survey Approved is deleted.</h3>
+<img src='Step26.png'/>
+<h3>27: Geodetic Engineer is deleted.</h3>
+<img src='Step27.png'/>
+<h3>28: Notes is deleted.</h3>
+<img src='Step28.png'/>
+<h3>29: Field content validation after clicking Yes button</h3>
+<img src='Step29.png'/>
+<h3>30: Encoded Plan Information</h3>
+<img src='Step30.png'/>
+<h3>31: Prompt displayed: Are you sure you want to delete all encoded technical description?</h3>
+<img src='Step31.png'/>
+<h3>32: Tie Point ID is not deleted.</h3>
+<img src='Step32.png'/>
+<h3>33: Plan No is not deleted.</h3>
+<img src='Step33.png'/>
+<h3>34: Description Tie Point ID is not deleted.</h3>
+<img src='Step34.png'/>
+<h3>35: TOTAL No. of Lots on Approved Plan is not deleted.</h3>
+<img src='Step35.png'/>
+<h3>36: TOTAL No. of Encoded Lots is not deleted.</h3>
+<img src='Step36.png'/>
+<h3>37: TOTAL No. of Lots Remaining is not deleted.</h3>
+<img src='Step37.png'/>
+<h3>38: Tie Point is not deleted.</h3>
+<img src='Step38.png'/>
+<h3>39: Block No is not deleted.</h3>
+<img src='Step39.png'/>
+<h3>40: Lot No is not deleted.</h3>
+<img src='Step40.png'/>
+<h3>41: Portion of is not deleted.</h3>
+<img src='Step41.png'/>
+<h3>42: Location is not deleted.</h3>
+<img src='Step42.png'/>
+<h3>43: Area is not deleted.</h3>
+<img src='Step43.png'/>
+<h3>44: Unit of Measure is not deleted.</h3>
+<img src='Step44.png'/>
+<h3>45: Description of Corners is not deleted.</h3>
+<img src='Step45.png'/>
+<h3>46: Survey System is not deleted.</h3>
+<img src='Step46.png'/>
+<h3>47: Bearing is not deleted.</h3>
+<img src='Step47.png'/>
+<h3>48: LRC/Records No is not deleted.</h3>
+<img src='Step48.png'/>
+<h3>49: Declination is not deleted.</h3>
+<img src='Step49.png'/>
+<h3>50: Date of Original Survey is not deleted.</h3>
+<img src='Step50.png'/>
+<h3>51: Date of Survey Executed is not deleted.</h3>
+<img src='Step51.png'/>
+<h3>52: Date of Survey Approved is not deleted.</h3>
+<img src='Step52.png'/>
+<h3>53: Geodetic Engineer is not deleted.</h3>
+<img src='Step53.png'/>
+<h3>54: Notes is not deleted.</h3>
+<img src='Step54.png'/>
+<h3>55: Field content validation after clicking No button</h3>
+<img src='Step55.png'/>
+<h3>56: Disabled</h3>
+<img src='Step56.png'/>
+<h3>57: Disabled</h3>
+<img src='Step57.png'/>
+<h3>58: Disabled</h3>
+<img src='Step58.png'/>
+<h3>59: Barcode and Reference</h3>
+<img src='Step59.png'/>

@@ -1,0 +1,12 @@
+<log type="Session" name="LT-IMC-QA-0174:laresuser" at="2024-06-07 10:35:19.986"/>
+<log type="Test" name="CLRP _Regression_ATC_085.1" status="Info"  at="2024-06-07 10:35:20.866"><data type="text">Test Started: C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\CLRP _Regression_ATC_085.1\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2024-06-07 10:35:20.872"/>
+<log type="Assert" name="Global.DoSetScreenResolution: 1920, 1080" status="Pass"  at="2024-06-07 10:35:20.876"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-06-07 10:35:26.306" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-06-07 10:35:26.309"/>
+<log type="Message" name="clrpautoencode" status="Info"  at="2024-06-07 10:35:26.312"/>
+<log type="Message" name="Pass@123" status="Info"  at="2024-06-07 10:35:26.314"/>
+<log type="Assert" name="CLRP_Main_Login.DoClick([])" status="Pass"  at="2024-06-07 10:35:27.694" comment="Returned Value: true" />
+<log type="Assert" name="Login_Username.DoSetText([&quot;clrpautoencode&quot;])" status="Pass"  at="2024-06-07 10:35:29.138" comment="Returned Value: true" />
+<log type="Assert" name="Login_Password.DoSetText([&quot;Pass@123&quot;])" status="Pass"  at="2024-06-07 10:35:30.570" comment="Returned Value: true" />

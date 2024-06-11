@@ -1,0 +1,83 @@
+<log type="Session" name="LT-IMC-QA-0174:laresuser" at="2024-06-04 13:09:44.599"/>
+<log type="Test" name="CLRP 3.3.0 Incremental and Maintenance" status="Info"  at="2024-06-04 13:09:45.671"><data type="text">Test Started: C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2024-06-04 13:09:45.676"/>
+<log type="Assert" name="Global.DoSetScreenResolution: 1920, 1080" status="Pass"  at="2024-06-04 13:09:45.680"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-06-04 13:09:50.679" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-06-04 13:09:50.685"/>
+<log type="Message" name="clrpautoencode" status="Info"  at="2024-06-04 13:09:50.693"/>
+<log type="Message" name="Pass@123" status="Info"  at="2024-06-04 13:09:50.695"/>
+<log type="Assert" name="CLRP_Main_Login.DoClick([])" status="Pass"  at="2024-06-04 13:09:52.133" comment="Returned Value: true" />
+<log type="Assert" name="Login_Username.DoSetText([&quot;clrpautoencode&quot;])" status="Pass"  at="2024-06-04 13:09:53.933" comment="Returned Value: true" />
+<log type="Assert" name="Login_Password.DoSetText([&quot;Pass@123&quot;])" status="Pass"  at="2024-06-04 13:09:55.383" comment="Returned Value: true" />
+<log type="Assert" name="Login_Button.DoClick([])" status="Pass"  at="2024-06-04 13:09:56.773" comment="Returned Value: true" />
+<log type="Message" name="Global.DoWaitFor: Alert_Later" status="Info"  at="2024-06-04 13:10:01.828" comment="Return value: false" />
+<log type="Message" name="
+
+
+TITLE INFORMATION PREVIEW
+New Title Details
+1. New Owner Name	 :	AELIANA   EVANGELINE   ANASTASIA   OPHELIA   SERAPHINA
+ISABELLE  ROSALIND  ARABELLA  CLARISSA  EVELINA  OCTAVIA
+MIRABELLA  CELESTIA  SERAPHINE  ISOLDE  GENEVIEVE  FELICITY
+AURELIA  ELEANORA  GWENDOLYN  LYSANDRA  MARCELLINE
+PENELOPE   THEODORA   VIVIENNE   ZEPHYRINE   ANGELICA
+BELLATRIX   CALLISTA   DESDEMONA   ELYSIA   FAERIELITH
+GUINEVERE HYPATIA IOLANTHE JESSAMINE KALLIOPE LYSITHEA
+MELISANDEÑÑA-ZA-Z0-9  .&apos;‘`;,-ÑÑA-ZA-Z0-9  .&apos;‘`;,-ÑÑA-ZA-Z0-9
+.&apos;‘`;,-ÑÑA-ZA-Z0-9  .&apos;‘`;,-ÑÑA-ZA-Z0-9  .&apos;‘`;,-ÑÑA-ZA-Z0-9  .&apos;‘`;,-
+ÑÑA-ZA-Z0-9  .&apos;‘`;,-ÑÑA-ZA-Z0
+2. New Owner Address :	277 Looban II, Loma de Gato, Marilao, Bulacan. 3019 0-9ñÑa-
+zA-Z #&apos;‘`.,/()-0-9ñÑa-zA-Z #&apos;‘`.,/()-0-9ñÑa-zA-Z #&apos;‘`.,/()-0-9ñÑa-
+zA-Z #&apos;‘`.,/()-0-9ñÑa-zA-Z #&apos;‘`.,/()-0-9ñÑa-zA-Z #&apos;‘`.,/()-0-9ñÑa-
+zA-Z #&apos;‘`.,/()-0-9ñÑa-zA-Z #&apos;‘`.,/()-0-9ñÑa-zA-Z #&apos;‘`.,/()-
+3. Technical Description
+PLAN NO:	PSD-9090
+LOT NO:	1	BLOCK NO:	A
+PORTION OF:	all of the subdivisio plan
+LOCATION:	277 Looban II, Loma de Gato, Marilao, Bulacan. 3019 Uppercase letters (A-
+Z and Ñ), Numeric (0-9), Lowercase letters (a-z and ñ), Number sign (#),
+Apostrophe (‘), Period (.), Comma (,) Dash (-), Slash (/), Spaces and Open
+and Close parenthesis.Upperca
+BOUNDARIES:
+LINE	DIRECTION	ADJOINING LOT(S)
+1-2	SW	7
+2-3	S	6
+3-4	SE	5
+4-1	W	4
+TIE POINT:	bllm no.1, quezon city
+LINE	BEARING	DISTANCE
+TO CORNER 1	N  90 º  0`  E	20 M.
+1-2	N  90 º  0`  E	10 M.
+2-3	S  0 º  0`  E	10 M.
+3-4	N  90 º  0`  W	10 M.
+4-1	N  0 º  0`  E	10 M.
+AREA:	100 sq.m.
+DESCRIPTION OF CORNERS:	277  Looban  II,  Loma  de  Gato,  Marilao,  Bulacan.  3019
+Uppercase  letters  (A-Z  and  Ñ),  Numeric  (0-9),  Lowercase
+letters (a-z and ñ), Number sign (#), Apostrophe (‘), Period
+(.),  Comma  (,)  Dash  (-),  Slash  (/),  Spaces  and  Open  and
+Close  parenthesis.Uppercase  letters  (A-Z  and  Ñ),  Numeric
+(0-9),  Lowercase  letters  (a-z  and  ñ),  Number  sign  (#),
+Apostrophe  (‘),  Period  (.),  Comma  (,)  Dash  (-),  Slash  (/),
+Spaces and Open and Close parenthesis, Comma (,) Dash (-
+), Slash (/), Spaces and Open and Close parenthe
+
+
+
+BEARINGS:	True
+DECLINATION:	1
+DATE OF ORIGINAL SURVEY:	08/08/2008
+DATE OF SUBD/CONS SURVEY:	08/08/2009
+DATE OF APPROVED SURVEY:	08/08/2010
+GEODETIC ENGINEER:	allan poe
+NOTES:	277 Looban II, Loma de Gato, Marilao, Bulacan. 3019 Uppercase letters (A-Z and
+Ñ), Numeric (0-9), Lowercase letters (a-z and ñ), Number sign (#), Apostrophe (‘),
+Period  (.),  Comma  (,)  Dash  (-),  Slash  (/),  Spaces  and  Open  and  Close
+parenthesis.Uppercase letters (A-Z and Ñ), Numeric (0-9), Lowercase letters (a-z
+and ñ), Number sign (#), Apostrophe (‘), Period (.), Comma (,) Dash (-), Slash (/),
+Spaces and Open and Close parenthesis, Comma (,) Dash (-), Slash (/), Spaces and
+Open and Close parenthe
+" status="Info"  at="2024-06-04 13:10:02.143"/>
+<log type="Message" name="CLRP Reference Number not found." status="Info"  at="2024-06-04 13:10:02.152"/>
+<log type="Test" name="CLRP 3.3.0 Incremental and Maintenance" status="Pass" closed="CLRP 3.3.0 Incremental and Maintenance" _guid="undefined"  at="2024-06-04 13:10:02.154" comment="Passed:7 Failed:0 Time:16.62s" />

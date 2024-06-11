@@ -1,0 +1,8 @@
+# CLRP _Regression_ATC_091
+# Starting scenario: Test
+ok 1 - Global.DoSetScreenResolution: 1920, 1080
+ok 2 - Download CLRP Training Guides.DoClick([])
+# Screen flow
+# Download CLRP Training Guides
+ok 3 - "".DoClick([])
+ok 4 - CLRP _Regression_ATC_091

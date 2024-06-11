@@ -1,0 +1,23 @@
+<log type="Session" name="LT-IMC-QA-0174:laresuser" at="2024-05-29 11:06:17.379"/>
+<log type="Test" name="CLRP _Regression_ATC_085.1" status="Info"  at="2024-05-29 11:06:18.734"><data type="text">Test Started: C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\CLRP _Regression_ATC_085.1\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2024-05-29 11:06:18.744"/>
+<log type="Assert" name="Global.DoSetScreenResolution: 1920, 1080" status="Pass"  at="2024-05-29 11:06:18.748"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 11:06:24.329" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 11:06:24.338"/>
+<log type="Message" name="clrpautoencode" status="Info"  at="2024-05-29 11:06:24.338"/>
+<log type="Message" name="Pass@123" status="Info"  at="2024-05-29 11:06:24.347"/>
+<log type="Assert" name="CLRP_Main_Login.DoClick([])" status="Pass"  at="2024-05-29 11:06:25.784" comment="Returned Value: true" />
+<log type="Assert" name="Login_Username.DoSetText([&quot;clrpautoencode&quot;])" status="Pass"  at="2024-05-29 11:06:27.318" comment="Returned Value: true" />
+<log type="Assert" name="Login_Password.DoSetText([&quot;Pass@123&quot;])" status="Pass"  at="2024-05-29 11:06:28.888" comment="Returned Value: true" />
+<log type="Assert" name="Login_Button.DoClick([])" status="Pass"  at="2024-05-29 11:06:30.325" comment="Returned Value: true" />
+<log type="Message" name="Global.DoWaitFor: Alert_Later" status="Info"  at="2024-05-29 11:06:35.412" comment="Return value: false" />
+<log type="Assert" name="Global.DoSetScreenResolution: 1920, 1080" status="Pass"  at="2024-05-29 11:06:35.639"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 11:06:40.468" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 11:06:40.478"/>
+<log type="Message" name="clrpautodar1" status="Info"  at="2024-05-29 11:06:40.484"/>
+<log type="Message" name="Pass@123" status="Info"  at="2024-05-29 11:06:40.493"/>
+<log type="Assert" name="CLRP_Main_Login.DoClick([])" status="Pass"  at="2024-05-29 11:06:41.995" comment="Returned Value: true" />
+<log type="Assert" name="Login_Username.DoSetText([&quot;clrpautodar1&quot;])" status="Pass"  at="2024-05-29 11:06:43.538" comment="Returned Value: true" />
+<log type="Assert" name="Login_Password.DoSetText([&quot;Pass@123&quot;])" status="Pass"  at="2024-05-29 11:06:45.086" comment="Returned Value: true" />
+<log type="Assert" name="Login_Button.DoClick([])" status="Pass"  at="2024-05-29 11:06:46.510" comment="Returned Value: true" />

@@ -1,0 +1,56 @@
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+SeS Player Starting...
+Rapise Version:7.4.27.88
+Verbose level:1
+Creating a locator:Spreadsheet
+Creating a locator:HTML
+Creating a locator:HTML FPP
+Checking global object: PDF2
+Global object PDF2 is not defined yet
+Assembling global object: PDF2
+Action found: GetFullText
+Action found: Contains
+Action found: AssertContains
+Checking global object: Generator
+Global object Generator is not defined yet
+Assembling global object: Generator
+Action found: GetNextValue
+Action found: Create
+Action found: Format
+Creating a locator:REST
+Creating a locator:SOAP
+Checking global object: Spira
+Global object Spira is not defined yet
+Assembling global object: Spira
+Action found: GetHostToken
+Action found: GetProjectId
+Action found: GetAutomationHostId
+Action found: RunTestSet
+Action found: CreateIncident
+Action found: GetTestCaseById
+Action found: UpdateTestCase
+Action found: CreateTestCase
+Action found: GetTestCaseFolders
+Action found: CreateTestCaseFolder
+Action found: GetTestCasesInFolder
+Action found: GetProjectById
+Action found: GetTestCaseTypes
+Initializing Web, g_browserLibrary=Selenium
+Creating a locator:UIAutomation
+Creating a locator:UIAutomation2
+###CLRP 3.3.0 Incremental and Maintenance (-2)
+###Starting scenario: Test (-2)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###The Value is :  (-2)
+### (-2)
+### (-2)
+###CLRP Reference Number not found. (-2)
+###CLRP 3.3.0 Incremental and Maintenance (1)
+Test execution done
+##############################################################
+Test Pass: CLRP 3.3.0 Incremental and Maintenance,  (Passed:2 Failed:0 Time:0.29s)
+Test Session Status: Pass Time: 2.397s
+##############################################################

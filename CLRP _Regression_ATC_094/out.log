@@ -1,0 +1,969 @@
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+SeS Player Starting...
+Rapise Version:7.4.27.88
+Verbose level:1
+Creating a locator:Spreadsheet
+Creating a locator:HTML
+Creating a locator:HTML FPP
+Checking global object: PDF2
+Global object PDF2 is not defined yet
+Assembling global object: PDF2
+Action found: GetFullText
+Action found: Contains
+Action found: AssertContains
+Checking global object: Generator
+Global object Generator is not defined yet
+Assembling global object: Generator
+Action found: GetNextValue
+Action found: Create
+Action found: Format
+Creating a locator:REST
+Creating a locator:SOAP
+Checking global object: Spira
+Global object Spira is not defined yet
+Assembling global object: Spira
+Action found: GetHostToken
+Action found: GetProjectId
+Action found: GetAutomationHostId
+Action found: RunTestSet
+Action found: CreateIncident
+Action found: GetTestCaseById
+Action found: UpdateTestCase
+Action found: CreateTestCase
+Action found: GetTestCaseFolders
+Action found: CreateTestCaseFolder
+Action found: GetTestCasesInFolder
+Action found: GetProjectById
+Action found: GetTestCaseTypes
+Initializing Web, g_browserLibrary=Selenium
+Creating a locator:UIAutomation
+Creating a locator:UIAutomation2
+###CLRP _Regression_ATC_094 (-2)
+###Starting scenario: Test (-2)
+###Global.DoSetScreenResolution: 1920, 1080 (1)
+Using default WebAppProfile
+Attach result: Rapise WebSpy code embedded into Selenium
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:HTML(HTMLObject)[-1]
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###automationclrp (-2)
+###Pass@123 (-2)
+Looking for object:CLRP_Main_Login
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Login(HTMLObject)[-1]
+CLRP_Main_Login.DoClick([])
+###CLRP_Main_Login.DoClick([]) (1)
+Action result:true
+Looking for object:Login_Username
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:loginField(HTMLObject)[-1]
+Login_Username.DoSetText(["automationclrp"])
+###Login_Username.DoSetText(["automationclrp"]) (1)
+Action result:true
+Looking for object:Login_Password
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:passwordField(HTMLObject)[-1]
+Login_Password.DoSetText(["Pass@123"])
+###Login_Password.DoSetText(["Pass@123"]) (1)
+Action result:true
+Looking for object:Login_Button
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Login(HTMLObject)[-1]
+Login_Button.DoClick([])
+###Login_Button.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Later(HTMLObject)[-1]
+###Global.DoWaitFor: Alert_Later (-2)
+Looking for object:Alert_Later
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Later(HTMLObject)[-1]
+Alert_Later.DoClick([])
+###Alert_Later.DoClick([]) (1)
+Action result:true
+Looking for object:CLRP_Submit_ETD
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Submit(HTMLObject)[-1]
+CLRP_Submit_ETD.DoClick([])
+error: click: element click intercepted: Element <span class="v-button-caption">...</span> is not clickable at point (1019, 683). Other element would receive the click: <div tabindex="0" role="button" class="v-button v-widget login_button v-button-login_button">...</div>
+  (Session info: chrome=125.0.6422.142)
+###CLRP_Submit_ETD.DoClick([]) (1)
+Action result:true
+Looking for object:ETD_Submit_Select_Tie_Point
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Select Tie Point(HTMLObject)[-1]
+ETD_Submit_Select_Tie_Point.DoClick([])
+###ETD_Submit_Select_Tie_Point.DoClick([]) (1)
+Action result:true
+Looking for object:ETD_Submit_Tie_Point_Place
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:DIV(HTMLObject)[-1]
+ETD_Submit_Tie_Point_Place.DoClick([])
+###ETD_Submit_Tie_Point_Place.DoClick([]) (1)
+Action result:true
+Looking for object:STP_Place_Textbox
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+STP_Place_Textbox.DoSendKeys(["QUEZON CITY"])
+###STP_Place_Textbox.DoSendKeys(["QUEZON CITY"]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:QUEZON CITY(HTMLObject)[-1]
+Looking for object:Generic_List
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:QUEZON CITY(HTMLObject)[-1]
+Generic_List.DoClick([])
+###Generic_List.DoClick([]) (1)
+Action result:true
+Looking for object:ETD_Submit_Tie_Point_Place_Select
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:QC-TALA(HTMLObject)[-1]
+ETD_Submit_Tie_Point_Place_Select.DoClick([])
+###ETD_Submit_Tie_Point_Place_Select.DoClick([]) (1)
+Action result:true
+Looking for object:ETD_Submit_Tie_Point_Finish_Selection
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Finish Selection(HTMLObject)[-1]
+ETD_Submit_Tie_Point_Finish_Selection.DoClick([])
+###ETD_Submit_Tie_Point_Finish_Selection.DoClick([]) (1)
+Action result:true
+Looking for object:ETD_Submit_RegistryOfDeeds
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:DIV(HTMLObject)[-1]
+ETD_Submit_RegistryOfDeeds.DoClick([])
+###ETD_Submit_RegistryOfDeeds.DoClick([]) (1)
+Action result:true
+###Global.DoSendKeys: Province of Lanao del Sur (1)
+###Global.DoSendKeys: {ENTER} (1)
+Looking for object:ETD_Submit_No.Parcels
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-10(HTMLObject)[-1]
+ETD_Submit_No.Parcels.DoSetText(["2"])
+###ETD_Submit_No.Parcels.DoSetText(["2"]) (1)
+Action result:true
+Looking for object:ETD_Submit_PlanNumber
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-12(HTMLObject)[-1]
+ETD_Submit_PlanNumber.DoSetText(["PSD-9091"])
+###ETD_Submit_PlanNumber.DoSetText(["PSD-9091"]) (1)
+Action result:true
+Looking for object:ETD_Submit_Upload_eTD_Upload
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+ETD_Submit_Upload_eTD_Upload.DoClick([])
+error: click: invalid argument
+  (Session info: chrome=125.0.6422.142)
+###ETD_Submit_Upload_eTD_Upload.DoClick([]) (1)
+Action result:true
+Looking for object:ETD_Submit_Upload_eTD_Upload
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+ETD_Submit_Upload_eTD_Upload.DoSendKeys(["C:\\Users\\Public\\CLRP\\XML File\\PSD-9090_BA_L2_2.xml"])
+###ETD_Submit_Upload_eTD_Upload.DoSendKeys(["C:\\Users\\Public\\CLRP\\XML File\\PSD-9090_BA_L2_2.xml"]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:HTML(HTMLObject)[-1]
+###Validate the prompt for invalid plan number. (1)
+###Screen flow (-2)
+###Prompt displayed: Invalid plan number format. (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?OK(HTMLObject)[-1]
+?OK.DoClick([])
+###?OK.DoClick([]) (1)
+Action result:true
+Looking for object:ETD_Submit_PlanNumber
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-12(HTMLObject)[-1]
+ETD_Submit_PlanNumber.DoSetText(["PSD-9090"])
+###ETD_Submit_PlanNumber.DoSetText(["PSD-9090"]) (1)
+Action result:true
+Looking for object:ETD_Submit_Upload_eTD_Upload
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:files[](HTMLObject)[-1]
+ETD_Submit_Upload_eTD_Upload.DoSendKeys(["C:\\Users\\Public\\CLRP\\XML File\\PSD-9090_BA_L2_2.xml"])
+###ETD_Submit_Upload_eTD_Upload.DoSendKeys(["C:\\Users\\Public\\CLRP\\XML File\\PSD-9090_BA_L2_2.xml"]) (1)
+Action result:true
+Looking for object:ETD_Submit_Encode_eTD
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Encode eTD(HTMLObject)[-1]
+ETD_Submit_Encode_eTD.DoClick([])
+###ETD_Submit_Encode_eTD.DoClick([]) (1)
+Action result:true
+Looking for object:ETD_Submit_Encode_eTD_EncodeETD
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Encode eTD(HTMLObject)[-1]
+ETD_Submit_Encode_eTD_EncodeETD.DoClick([])
+###ETD_Submit_Encode_eTD_EncodeETD.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:HTML(HTMLObject)[-1]
+?.DoClick([])
+error: click: element click intercepted: Element <span class="v-button-wrap">...</span> is not clickable at point (334, 862). Other element would receive the click: <div tabindex="0" role="button" class="v-button v-widget small v-button-small v-button-empty-caption icon">...</div>
+  (Session info: chrome=125.0.6422.142)
+###?.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Are you sure you want to delete all encoded technical description?(HTMLObject)[-1]
+###Validate prompt when "Clear" button is clicked. (1)
+###Prompt displayed: Are you sure you want to delete all encoded technical description? (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Yes(HTMLObject)[-1]
+?Yes.DoClick([])
+error: click: element click intercepted: Element <span class="v-button-wrap">...</span> is not clickable at point (1068, 474). Other element would receive the click: <div tabindex="0" role="button" class="v-button v-widget c-primary-action v-button-c-primary-action icon">...</div>
+  (Session info: chrome=125.0.6422.142)
+###?Yes.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:HTML(HTMLObject)[-1]
+###Validate that "TOTAL No. of Lots on Approved Plan" field value is not null or not deleted (1)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:HTML(HTMLObject)[-1]
+###Validate that "TOTAL No. of Encoded Lots" field value is not null or not deleted (1)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:HTML(HTMLObject)[-1]
+###Validate that "TOTAL No. of Lots Remaining" field value is not null or not deleted (1)
+###Fields content not deleted after clicking Clear button (-2)
+Looking for object:ETD_Block_No
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_Block_No.DoSetText(["372"])
+###ETD_Block_No.DoSetText(["372"]) (1)
+Action result:true
+Looking for object:ETD_Lot_No
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-39(HTMLObject)[-1]
+ETD_Lot_No.DoSetText(["839"])
+###ETD_Lot_No.DoSetText(["839"]) (1)
+Action result:true
+Looking for object:ETD_Portion_of
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-41(HTMLObject)[-1]
+ETD_Portion_of.DoSetText(["Automation Testing"])
+###ETD_Portion_of.DoSetText(["Automation Testing"]) (1)
+Action result:true
+Looking for object:ETD_Location
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-43(HTMLObject)[-1]
+ETD_Location.DoSetText(["Quezon City"])
+###ETD_Location.DoSetText(["Quezon City"]) (1)
+Action result:true
+Looking for object:ETD_Area
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-47(HTMLObject)[-1]
+ETD_Area.DoSetText(["100"])
+###ETD_Area.DoSetText(["100"]) (1)
+Action result:true
+Looking for object:ETD_Unit_of_Measure
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:DIV(HTMLObject)[-1]
+ETD_Unit_of_Measure.DoClick([])
+###ETD_Unit_of_Measure.DoClick([]) (1)
+Action result:true
+###Global.DoSendKeys: Square Meters (1)
+###Global.DoSendKeys: {ENTER} (1)
+Looking for object:ETD_Description_of_Corners
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-49(HTMLObject)[-1]
+ETD_Description_of_Corners.DoSetText(["Description Corners"])
+###ETD_Description_of_Corners.DoSetText(["Description Corners"]) (1)
+Action result:true
+Looking for object:ETD_Survey_System
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_Survey_System.DoSetText(["Surver Testing"])
+###ETD_Survey_System.DoSetText(["Surver Testing"]) (1)
+Action result:true
+Looking for object:ETD_Bearing
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:DIV(HTMLObject)[-1]
+ETD_Bearing.DoClick([])
+###ETD_Bearing.DoClick([]) (1)
+Action result:true
+###Global.DoSendKeys: True (1)
+###Global.DoSendKeys: {ENTER} (1)
+Looking for object:ETD_LRC/Records_No
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_LRC/Records_No.DoSetText(["8623"])
+###ETD_LRC/Records_No.DoSetText(["8623"]) (1)
+Action result:true
+Looking for object:ETD_Declination
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_Declination.DoSetText(["Automation"])
+###ETD_Declination.DoSetText(["Automation"]) (1)
+Action result:true
+Looking for object:ETD_DateOf_Orginal_Survey
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-53(HTMLObject)[-1]
+ETD_DateOf_Orginal_Survey.DoSetText(["01/04/2023"])
+###ETD_DateOf_Orginal_Survey.DoSetText(["01/04/2023"]) (1)
+Action result:true
+Looking for object:ETD_DateOf_Survey_Executed
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-55(HTMLObject)[-1]
+ETD_DateOf_Survey_Executed.DoSetText(["01/04/2023"])
+###ETD_DateOf_Survey_Executed.DoSetText(["01/04/2023"]) (1)
+Action result:true
+Looking for object:ETD_DateOf_Survey_Approved
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-57(HTMLObject)[-1]
+ETD_DateOf_Survey_Approved.DoSetText(["01/04/2023"])
+###ETD_DateOf_Survey_Approved.DoSetText(["01/04/2023"]) (1)
+Action result:true
+Looking for object:ETD_Geodetic_Engineer
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-59(HTMLObject)[-1]
+ETD_Geodetic_Engineer.DoSetText(["Test"])
+###ETD_Geodetic_Engineer.DoSetText(["Test"]) (1)
+Action result:true
+Looking for object:ETD_Notes
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_Notes.DoSetText(["Test Notes"])
+###ETD_Notes.DoSetText(["Test Notes"]) (1)
+Action result:true
+###Encoded Plan Information (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:HTML(HTMLObject)[-1]
+?.DoClick([])
+error: click: element click intercepted: Element <span class="v-button-wrap">...</span> is not clickable at point (334, 862). Other element would receive the click: <div tabindex="0" role="button" class="v-button v-widget small v-button-small v-button-empty-caption icon">...</div>
+  (Session info: chrome=125.0.6422.142)
+###?.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Are you sure you want to delete all encoded technical description?(HTMLObject)[-1]
+###Validate prompt when "Clear" button is clicked. (1)
+###Prompt displayed: Are you sure you want to delete all encoded technical description? (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Yes(HTMLObject)[-1]
+?Yes.DoClick([])
+error: click: element click intercepted: Element <span class="v-button-wrap">...</span> is not clickable at point (1068, 474). Other element would receive the click: <div tabindex="0" role="button" class="v-button v-widget c-primary-action v-button-c-primary-action icon">...</div>
+  (Session info: chrome=125.0.6422.142)
+###?Yes.DoClick([]) (1)
+Action result:true
+Looking for object:ETD_Tie_Point_ID
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:BM 22(HTMLObject)[-1]
+###Validate that Tie Point ID field value is not null or not deleted (1)
+###Tie Point ID is not deleted. (-2)
+Looking for object:ETD_Plan_No
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:PSD-9090(HTMLObject)[-1]
+###Validate that Plan No field value is not null or not deleted (1)
+###Plan No is not deleted. (-2)
+Looking for object:ETD_Description_Tie_Point_ID
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:QC-TALA(HTMLObject)[-1]
+###Validate that Description Tie Point ID field value is not null or not deleted (1)
+###Description Tie Point ID is not deleted. (-2)
+Looking for object:ETD_Total_Lots_Approved_Plan
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:2(HTMLObject)[-1]
+###Validate that TOTAL No. of Lots on Approved Plan field value is not null or not deleted (1)
+###TOTAL No. of Lots on Approved Plan is not deleted. (-2)
+Looking for object:ETD_Total_Encoded_Lots
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1(HTMLObject)[-1]
+###Validate that TOTAL No. of Encoded Lots field value is not null or not deleted (1)
+###TOTAL No. of Encoded Lots is not deleted. (-2)
+Looking for object:ETD_Total_Lots_Remaining
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1(HTMLObject)[-1]
+###Validate that TOTAL No. of Lots Remaining field value is not null or not deleted (1)
+###TOTAL No. of Lots Remaining is not deleted. (-2)
+Looking for object:ETD_Tie_Point
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:BM No. 22, Tala Estate(HTMLObject)[-1]
+###Validate that Tie Point field value is not null or not deleted (1)
+###Tie Point is not deleted. (-2)
+Looking for object:ETD_Block_No
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+###Validate that Block No field value is null or deleted (1)
+###Block No is deleted. (-2)
+Looking for object:ETD_Lot_No
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-39(HTMLObject)[-1]
+###Validate that Lot No field value is null or deleted (1)
+###Lot No is deleted. (-2)
+Looking for object:ETD_Portion_of
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-41(HTMLObject)[-1]
+###Validate that Portion of field value is null or deleted (1)
+###Portion of is deleted. (-2)
+Looking for object:ETD_Location
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-43(HTMLObject)[-1]
+###Validate that Location field value is null or deleted (1)
+###Location is deleted. (-2)
+Looking for object:ETD_Area
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-47(HTMLObject)[-1]
+###Validate that Area field value is null or deleted (1)
+###Area is deleted. (-2)
+Looking for object:ETD_Unit_of_Measure
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:DIV(HTMLObject)[-1]
+###Validate that Unit of Measure field value is null or deleted (1)
+###Unit of Measure is deleted. (-2)
+Looking for object:ETD_Description_of_Corners
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-49(HTMLObject)[-1]
+###Validate that Description of Corners field value is null or deleted (1)
+###Description of Corners is deleted. (-2)
+Looking for object:ETD_Survey_System
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+###Validate that Survey System field value is null or deleted (1)
+###Survey System is deleted. (-2)
+Looking for object:ETD_Bearing
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:DIV(HTMLObject)[-1]
+###Validate that Bearing field value is null or deleted (1)
+###Bearing is deleted. (-2)
+Looking for object:ETD_LRC/Records_No
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+###Validate that LRC/Records No field value is null or deleted (1)
+###LRC/Records No is deleted. (-2)
+Looking for object:ETD_Declination
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+###Validate that Declination field value is null or deleted (1)
+###Declination is deleted. (-2)
+Looking for object:ETD_DateOf_Orginal_Survey
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-53(HTMLObject)[-1]
+###Validate that Date of Original Survey field value is null or deleted (1)
+###Date of Original Survey is deleted. (-2)
+Looking for object:ETD_DateOf_Survey_Executed
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-55(HTMLObject)[-1]
+###Validate that Date of Survey Executed field value is null or deleted (1)
+###Date of Survey Executed is deleted. (-2)
+Looking for object:ETD_DateOf_Survey_Approved
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-57(HTMLObject)[-1]
+###Validate that Date of Survey Approved field value is null or deleted (1)
+###Date of Survey Approved is deleted. (-2)
+Looking for object:ETD_Geodetic_Engineer
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-59(HTMLObject)[-1]
+###Validate that Geodetic Engineer field value is null or deleted (1)
+###Geodetic Engineer is deleted. (-2)
+Looking for object:ETD_Notes
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+###Validate that Notes field value is null or deleted (1)
+###Notes is deleted. (-2)
+###Field content validation after clicking Yes button (-2)
+Looking for object:ETD_Block_No
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_Block_No.DoSetText(["121"])
+###ETD_Block_No.DoSetText(["121"]) (1)
+Action result:true
+Looking for object:ETD_Lot_No
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-39(HTMLObject)[-1]
+ETD_Lot_No.DoSetText(["188"])
+###ETD_Lot_No.DoSetText(["188"]) (1)
+Action result:true
+Looking for object:ETD_Portion_of
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-41(HTMLObject)[-1]
+ETD_Portion_of.DoSetText(["Automation Testing"])
+###ETD_Portion_of.DoSetText(["Automation Testing"]) (1)
+Action result:true
+Looking for object:ETD_Location
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-43(HTMLObject)[-1]
+ETD_Location.DoSetText(["Quezon City"])
+###ETD_Location.DoSetText(["Quezon City"]) (1)
+Action result:true
+Looking for object:ETD_Area
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-47(HTMLObject)[-1]
+ETD_Area.DoSetText(["100"])
+###ETD_Area.DoSetText(["100"]) (1)
+Action result:true
+Looking for object:ETD_Unit_of_Measure
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:DIV(HTMLObject)[-1]
+ETD_Unit_of_Measure.DoClick([])
+###ETD_Unit_of_Measure.DoClick([]) (1)
+Action result:true
+###Global.DoSendKeys: Square Meters (1)
+###Global.DoSendKeys: {ENTER} (1)
+Looking for object:ETD_Description_of_Corners
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-49(HTMLObject)[-1]
+ETD_Description_of_Corners.DoSetText(["Description Corners"])
+###ETD_Description_of_Corners.DoSetText(["Description Corners"]) (1)
+Action result:true
+Looking for object:ETD_Survey_System
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_Survey_System.DoSetText(["Surver Testing"])
+###ETD_Survey_System.DoSetText(["Surver Testing"]) (1)
+Action result:true
+Looking for object:ETD_Bearing
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:DIV(HTMLObject)[-1]
+ETD_Bearing.DoClick([])
+###ETD_Bearing.DoClick([]) (1)
+Action result:true
+###Global.DoSendKeys: True (1)
+###Global.DoSendKeys: {ENTER} (1)
+Looking for object:ETD_LRC/Records_No
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_LRC/Records_No.DoSetText(["8623"])
+###ETD_LRC/Records_No.DoSetText(["8623"]) (1)
+Action result:true
+Looking for object:ETD_Declination
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_Declination.DoSetText(["Automation"])
+###ETD_Declination.DoSetText(["Automation"]) (1)
+Action result:true
+Looking for object:ETD_DateOf_Orginal_Survey
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-53(HTMLObject)[-1]
+ETD_DateOf_Orginal_Survey.DoSetText(["01/04/2023"])
+###ETD_DateOf_Orginal_Survey.DoSetText(["01/04/2023"]) (1)
+Action result:true
+Looking for object:ETD_DateOf_Survey_Executed
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-55(HTMLObject)[-1]
+ETD_DateOf_Survey_Executed.DoSetText(["01/04/2023"])
+###ETD_DateOf_Survey_Executed.DoSetText(["01/04/2023"]) (1)
+Action result:true
+Looking for object:ETD_DateOf_Survey_Approved
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-57(HTMLObject)[-1]
+ETD_DateOf_Survey_Approved.DoSetText(["01/04/2023"])
+###ETD_DateOf_Survey_Approved.DoSetText(["01/04/2023"]) (1)
+Action result:true
+Looking for object:ETD_Geodetic_Engineer
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-59(HTMLObject)[-1]
+ETD_Geodetic_Engineer.DoSetText(["Test"])
+###ETD_Geodetic_Engineer.DoSetText(["Test"]) (1)
+Action result:true
+Looking for object:ETD_Notes
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_Notes.DoSetText(["Test Notes"])
+###ETD_Notes.DoSetText(["Test Notes"]) (1)
+Action result:true
+###Encoded Plan Information (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:HTML(HTMLObject)[-1]
+?.DoClick([])
+error: click: element click intercepted: Element <span class="v-button-wrap">...</span> is not clickable at point (334, 862). Other element would receive the click: <div tabindex="0" role="button" class="v-button v-widget small v-button-small v-button-empty-caption icon">...</div>
+  (Session info: chrome=125.0.6422.142)
+###?.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Are you sure you want to delete all encoded technical description?(HTMLObject)[-1]
+###Validate prompt when "Clear" button is clicked. (1)
+###Prompt displayed: Are you sure you want to delete all encoded technical description? (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?No(HTMLObject)[-1]
+?No.DoClick([])
+error: click: element click intercepted: Element <span class="v-button-wrap">...</span> is not clickable at point (1144, 474). Other element would receive the click: <div tabindex="0" role="button" class="v-button v-widget icon">...</div>
+  (Session info: chrome=125.0.6422.142)
+###?No.DoClick([]) (1)
+Action result:true
+Looking for object:ETD_Tie_Point_ID
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:BM 22(HTMLObject)[-1]
+###Validate that Tie Point ID field value is not null or not deleted (1)
+###Tie Point ID is not deleted. (-2)
+Looking for object:ETD_Plan_No
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:PSD-9090(HTMLObject)[-1]
+###Validate that Plan No field value is not null or not deleted (1)
+###Plan No is not deleted. (-2)
+Looking for object:ETD_Description_Tie_Point_ID
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:QC-TALA(HTMLObject)[-1]
+###Validate that Description Tie Point ID field value is not null or not deleted (1)
+###Description Tie Point ID is not deleted. (-2)
+Looking for object:ETD_Total_Lots_Approved_Plan
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:2(HTMLObject)[-1]
+###Validate that TOTAL No. of Lots on Approved Plan field value is not null or not deleted (1)
+###TOTAL No. of Lots on Approved Plan is not deleted. (-2)
+Looking for object:ETD_Total_Encoded_Lots
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1(HTMLObject)[-1]
+###Validate that TOTAL No. of Encoded Lots field value is not null or not deleted (1)
+###TOTAL No. of Encoded Lots is not deleted. (-2)
+Looking for object:ETD_Total_Lots_Remaining
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1(HTMLObject)[-1]
+###Validate that TOTAL No. of Lots Remaining field value is not null or not deleted (1)
+###TOTAL No. of Lots Remaining is not deleted. (-2)
+Looking for object:ETD_Tie_Point
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:BM No. 22, Tala Estate(HTMLObject)[-1]
+###Validate that Tie Point field value is not null or not deleted (1)
+###Tie Point is not deleted. (-2)
+Looking for object:ETD_Block_No
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+###Validate that Block No field value is not null or not deleted (1)
+###Block No is not deleted. (-2)
+Looking for object:ETD_Lot_No
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-39(HTMLObject)[-1]
+###Validate that Lot No field value is not null or not deleted (1)
+###Lot No is not deleted. (-2)
+Looking for object:ETD_Portion_of
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-41(HTMLObject)[-1]
+###Validate that Portion of field value is not null or not deleted (1)
+###Portion of is not deleted. (-2)
+Looking for object:ETD_Location
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-43(HTMLObject)[-1]
+###Validate that Location field value is not null or not deleted (1)
+###Location is not deleted. (-2)
+Looking for object:ETD_Area
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-47(HTMLObject)[-1]
+###Validate that Area field value is not null or not deleted (1)
+###Area is not deleted. (-2)
+Looking for object:ETD_Unit_of_Measure
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:DIV(HTMLObject)[-1]
+###Validate that Unit of Measure field value is not null or not deleted (1)
+###Unit of Measure is not deleted. (-2)
+Looking for object:ETD_Description_of_Corners
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-49(HTMLObject)[-1]
+###Validate that Description of Corners field value is not null or not deleted (1)
+###Description of Corners is not deleted. (-2)
+Looking for object:ETD_Survey_System
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+###Validate that Survey System field value is not null or not deleted (1)
+###Survey System is not deleted. (-2)
+Looking for object:ETD_Bearing
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:DIV(HTMLObject)[-1]
+###Validate that Bearing field value is not null or not deleted (1)
+###Bearing is not deleted. (-2)
+Looking for object:ETD_LRC/Records_No
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+###Validate that LRC/Records No field value is not null or not deleted (1)
+###LRC/Records No is not deleted. (-2)
+Looking for object:ETD_Declination
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+###Validate that Declination field value is not null or not deleted (1)
+###Declination is not deleted. (-2)
+Looking for object:ETD_DateOf_Orginal_Survey
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-53(HTMLObject)[-1]
+###Validate that Date of Original Survey field value is not null or not deleted (1)
+###Date of Original Survey is not deleted. (-2)
+Looking for object:ETD_DateOf_Survey_Executed
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-55(HTMLObject)[-1]
+###Validate that Date of Survey Executed field value is not null or not deleted (1)
+###Date of Survey Executed is not deleted. (-2)
+Looking for object:ETD_DateOf_Survey_Approved
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-57(HTMLObject)[-1]
+###Validate that Date of Survey Approved field value is not null or not deleted (1)
+###Date of Survey Approved is not deleted. (-2)
+Looking for object:ETD_Geodetic_Engineer
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:gwt-uid-59(HTMLObject)[-1]
+###Validate that Geodetic Engineer field value is not null or not deleted (1)
+###Geodetic Engineer is not deleted. (-2)
+Looking for object:ETD_Notes
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+###Validate that Notes field value is not null or not deleted (1)
+###Notes is not deleted. (-2)
+###Field content validation after clicking No button (-2)
+Looking for object:ETD_Add_Corners
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1(HTMLObject)[-1]
+ETD_Add_Corners.DoSetText(["4"])
+###ETD_Add_Corners.DoSetText(["4"]) (1)
+Action result:true
+Looking for object:ETD_Add
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?(HTMLObject)[-1]
+ETD_Add.DoClick([])
+###ETD_Add.DoClick([]) (1)
+Action result:true
+###13 (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:HTML(HTMLObject)[-1]
+INPUT.DoDOMGetAttribute(["class"])
+###INPUT.DoDOMGetAttribute(["class"]) (1)
+Action result:v-textfield v-textfield-readonly c-disabled-or-readonly v-widget v-readonly v-has-width
+###Check field if disabled (1)
+###Disabled (-2)
+###14 (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:HTML(HTMLObject)[-1]
+INPUT.DoDOMGetAttribute(["class"])
+###INPUT.DoDOMGetAttribute(["class"]) (1)
+Action result:v-textfield v-textfield-readonly c-disabled-or-readonly v-widget v-readonly v-has-width
+###Check field if disabled (1)
+###Disabled (-2)
+###15 (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:HTML(HTMLObject)[-1]
+INPUT.DoDOMGetAttribute(["class"])
+###INPUT.DoDOMGetAttribute(["class"]) (1)
+Action result:v-textfield v-textfield-readonly c-disabled-or-readonly v-widget v-readonly v-has-width
+###Check field if disabled (1)
+###Disabled (-2)
+Looking for object:ETD_NorthSouth_0
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_NorthSouth_0.DoSetText(["6"])
+###ETD_NorthSouth_0.DoSetText(["6"]) (1)
+Action result:true
+Looking for object:ETD_Distance_0
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_Distance_0.DoSetText(["100"])
+###ETD_Distance_0.DoSetText(["100"]) (1)
+Action result:true
+Looking for object:ETD_NorthSouth_1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_NorthSouth_1.DoSetText(["6"])
+###ETD_NorthSouth_1.DoSetText(["6"]) (1)
+Action result:true
+Looking for object:ETD_Distance_1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_Distance_1.DoSetText(["10"])
+###ETD_Distance_1.DoSetText(["10"]) (1)
+Action result:true
+Looking for object:ETD_NorthSouth_2
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_NorthSouth_2.DoSetText(["2"])
+###ETD_NorthSouth_2.DoSetText(["2"]) (1)
+Action result:true
+Looking for object:ETD_Distance_2
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_Distance_2.DoSetText(["10"])
+###ETD_Distance_2.DoSetText(["10"]) (1)
+Action result:true
+Looking for object:ETD_NorthSouth_3
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_NorthSouth_3.DoSetText(["4"])
+###ETD_NorthSouth_3.DoSetText(["4"]) (1)
+Action result:true
+Looking for object:ETD_Distance_3
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_Distance_3.DoSetText(["10"])
+###ETD_Distance_3.DoSetText(["10"]) (1)
+Action result:true
+Looking for object:ETD_NorthSouth_4
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_NorthSouth_4.DoSetText(["8"])
+###ETD_NorthSouth_4.DoSetText(["8"]) (1)
+Action result:true
+Looking for object:ETD_Distance_4
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:INPUT(HTMLObject)[-1]
+ETD_Distance_4.DoSetText(["10"])
+###ETD_Distance_4.DoSetText(["10"]) (1)
+Action result:true
+Looking for object:ETD_Save
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?(HTMLObject)[-1]
+ETD_Save.DoClick([])
+###ETD_Save.DoClick([]) (1)
+Action result:true
+Looking for object:ETD_Submit_Submit
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Submit(HTMLObject)[-1]
+ETD_Submit_Submit.DoClick([])
+###ETD_Submit_Submit.DoClick([]) (1)
+Action result:true
+Looking for object:ETD_Alert_Yes
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?Yes(HTMLObject)[-1]
+ETD_Alert_Yes.DoClick([])
+###ETD_Alert_Yes.DoClick([]) (1)
+Action result:true
+Looking for object:ETD_Alert_OK
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:OK(HTMLObject)[-1]
+ETD_Alert_OK.DoClick([])
+error: click: element click intercepted: Element <span class="v-button-caption">...</span> is not clickable at point (1151, 474). Other element would receive the click: <div tabindex="0" role="button" class="v-button v-widget c-primary-action v-button-c-primary-action icon">...</div>
+  (Session info: chrome=125.0.6422.142)
+###ETD_Alert_OK.DoClick([]) (1)
+Action result:true
+###Barcode and Reference (-2)
+###Global.DoSendKeys: ^j (1)
+###Global.DoSendKeys: ^w (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {TAB} (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Global.DoSendKeys: ETD Application Form-2024-06-07_12_22_24.pdf (1)
+###Global.DoSendKeys: {ENTER} (1)
+###Test Case ID: CLRP _Regression_ATC_094 (-2)
+###Source file exists: C:\Users\laresuser\Downloads\ETD Application Form-2024-06-07_12_22_24.pdf (-2)
+Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat
+###Global.DoLaunch: C:\Users\Public\CLRP\moveFiles.bat (1)
+###File moved successfully to: C:\Users\Public\CLRP\Reports\2024-06-07\CLRP _Regression_ATC_094\ETD Application Form-2024-06-07_12_22_24.pdf (-2)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###Set value: ETD Application Form-2024-06-07_12_22_24.pdf in column: File Name, row: 1, for TCID: CLRP _Regression_ATC_094 (-2)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###Set value: C:\Users\Public\CLRP\Reports\2024-06-07\CLRP _Regression_ATC_094\ETD Application Form-2024-06-07_12_22_24.pdf in column: Location, row: 1, for TCID: CLRP _Regression_ATC_094 (-2)
+###Destination file: C:\Users\Public\CLRP\Reports\2024-06-07\CLRP _Regression_ATC_094\ETD Application Form-2024-06-07_12_22_24.pdf (-2)
+###Full Path: C:\Users\Public\CLRP\Reports\2024-06-07\CLRP _Regression_ATC_094\ETD Application Form-2024-06-07_12_22_24.pdf (-2)
+###PDF Text: 
+
+
+REPUBLIKA NG PILIPINAS
+KAGAWARAN NG KATARUNGAN
+PANGASIWAAN SA PATALAAN NG LUPAIN
+(LAND REGISTRATION AUTHORITY)
+
+East Avenue cor. NIA Road
+Quezon City
+
+CLRP_eTD-20240000000394
+Registry of Deeds for Province of Lanao del Sur
+ETD APPLICATION FORM
+CLRP Reference Number: CLRP_eTD-20240000000394	Date: 06/07/2024 12:22 PM
+ Plan Number	 Count of Uploaded eTD
+PSD-9090	2
+ Total Number of eTD:	2
+Page 1 of	 1
+ (-2)
+###PDF Text Content: 
+
+
+REPUBLIKA NG PILIPINAS
+KAGAWARAN NG KATARUNGAN
+PANGASIWAAN SA PATALAAN NG LUPAIN
+(LAND REGISTRATION AUTHORITY)
+
+East Avenue cor. NIA Road
+Quezon City
+
+CLRP_eTD-20240000000394
+Registry of Deeds for Province of Lanao del Sur
+ETD APPLICATION FORM
+CLRP Reference Number: CLRP_eTD-20240000000394	Date: 06/07/2024 12:22 PM
+ Plan Number	 Count of Uploaded eTD
+PSD-9090	2
+ Total Number of eTD:	2
+Page 1 of	 1
+ (-2)
+###CLRP Reference Number matched: CLRP_eTD-20240000000394 (-2)
+###CLRP Reference Number: CLRP_eTD-20240000000394 (-2)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###Attaching to spreadsheet (1)
+###Open Spreadsheet (1)
+###Set value: CLRP_eTD-20240000000394 in column: CLRP Reference Number, row: 1, for TCID: CLRP _Regression_ATC_094 (-2)
+###Global.DoSendKeys: {ESC} (1)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:1027_window_close(HTMLObject)[-1]
+1027_window_close.DoClick([])
+###1027_window_close.DoClick([]) (1)
+Action result:true
+Looking for object:ETD_Submit_Notif
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:H1(HTMLObject)[-1]
+ETD_Submit_Notif.DoClick([])
+###ETD_Submit_Notif.DoClick([]) (1)
+Action result:true
+Looking for object:ETD_Upload_Success
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:H1(HTMLObject)[-1]
+ETD_Upload_Success.DoClick([])
+###ETD_Upload_Success.DoClick([]) (1)
+Action result:true
+Looking for object:CLRP_Burger_List
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:?(HTMLObject)[-1]
+CLRP_Burger_List.DoClick([])
+###CLRP_Burger_List.DoClick([]) (1)
+Action result:true
+Looking for object:User_Logout
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:Logout(HTMLObject)[-1]
+User_Logout.DoClick([])
+error: click: element click intercepted: Element <span class="v-button-caption">...</span> is not clickable at point (85, 271). Other element would receive the click: <div tabindex="0" role="button" class="v-button v-widget login_button v-button-login_button v-has-width" style="width: 150px;">...</div>
+  (Session info: chrome=125.0.6422.142)
+###User_Logout.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+###Global.DoWaitFor: Alert_Yes (-2)
+###CLRP _Regression_ATC_094 (1)
+Test execution done
+##############################################################
+Test Pass: CLRP _Regression_ATC_094,  (Passed:180 Failed:0 Time:216.559s)
+Test Session Status: Pass Time: 217.961s
+##############################################################

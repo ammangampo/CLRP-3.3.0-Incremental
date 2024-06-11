@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserSettings>
+  <ArrayOfFlexDictionaryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <FlexDictionaryEntry name="Files" type="SmarteStudio.Test.FlexDictionary">
+      <FlexDictionary>
+        <ArrayOfFlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\users\laresuser\documents\my rapise tests\clrp 3.3.0 incremental and maintenance\clrp _regression_atc_085.1\main.js" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="Folding" type="SmarteStudio.Editor.FoldingStrategy.JsFoldingStrategy">
+                  <JsFoldingStrategy>
+                    <IsJson>false</IsJson>
+                    <FoldingMarkers>
+                      <FoldMarker startLine="88" startColumn="56" endLine="122" endColumn="0" isFolded="true" />
+                      <FoldMarker startLine="124" startColumn="37" endLine="194" endColumn="0" isFolded="true" />
+                      <FoldMarker startLine="196" startColumn="50" endLine="203" endColumn="0" isFolded="true" />
+                      <FoldMarker startLine="205" startColumn="38" endLine="233" endColumn="0" isFolded="true" />
+                      <FoldMarker startLine="235" startColumn="38" endLine="264" endColumn="0" isFolded="true" />
+                      <FoldMarker startLine="-1" startColumn="-1" endLine="32" endColumn="1" isFolded="true" />
+                    </FoldingMarkers>
+                  </JsFoldingStrategy>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
+          </FlexDictionaryEntry>
+        </ArrayOfFlexDictionaryEntry>
+      </FlexDictionary>
+    </FlexDictionaryEntry>
+  </ArrayOfFlexDictionaryEntry>
+</UserSettings>

@@ -1,0 +1,146 @@
+<log type="Session" name="LT-IMC-QA-0174:laresuser" at="2024-05-29 14:08:10.025"/>
+<log type="Test" name="CLRP _Regression_ATC_092.1" status="Info"  at="2024-05-29 14:08:10.829"><data type="text">Test Started: C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\CLRP _Regression_ATC_092.1\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2024-05-29 14:08:10.829"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 14:08:10.845" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 14:08:10.856"/>
+<log type="Message" name="The Value is : Alwin Mangampo, Legal Age, Single." status="Info"  at="2024-05-29 14:08:10.865"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 14:08:10.873" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 14:08:10.875"/>
+<log type="Message" name="The Value is : Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan" status="Info"  at="2024-05-29 14:08:10.875"/>
+<log type="Assert" name="Global.DoKillByPid: 19540" status="Info" realStatus="Pass"  at="2024-05-29 14:08:11.387"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 14:08:15.734" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 14:08:15.737"/>
+<log type="Message" name="clrpautoencode" status="Info"  at="2024-05-29 14:08:15.742"/>
+<log type="Message" name="Pass@123" status="Info"  at="2024-05-29 14:08:15.745"/>
+<log type="Assert" name="CLRP_Main_Login.DoClick([])" status="Pass"  at="2024-05-29 14:08:17.123" comment="Returned Value: true" />
+<log type="Assert" name="Login_Username.DoSetText([&quot;clrpautoencode&quot;])" status="Pass"  at="2024-05-29 14:08:18.576" comment="Returned Value: true" />
+<log type="Assert" name="Login_Password.DoSetText([&quot;Pass@123&quot;])" status="Pass"  at="2024-05-29 14:08:20.028" comment="Returned Value: true" />
+<log type="Assert" name="Login_Button.DoClick([])" status="Pass"  at="2024-05-29 14:08:21.392" comment="Returned Value: true" />
+<log type="Message" name="Global.DoWaitFor: Alert_Later" status="Info"  at="2024-05-29 14:08:26.508" comment="Return value: false" />
+<log type="Assert" name="Dashboard.DoClick([])" status="Pass"  at="2024-05-29 14:08:27.865" comment="Returned Value: true" />
+<log type="Assert" name="Create_Request.DoClick([])" status="Pass"  at="2024-05-29 14:08:36.039" comment="Returned Value: true" />
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 14:08:36.048" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 14:08:36.048"/>
+<log type="Message" name="The Value is : Parcelization of Collective CLOA - Issue cTitle (With Subdivision Plan Approved by DENR) - Voluntary" status="Info"  at="2024-05-29 14:08:36.055"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 14:08:36.065" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 14:08:36.065"/>
+<log type="Message" name="The Value is : PSD-9090" status="Info"  at="2024-05-29 14:08:36.068"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 14:08:36.077" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 14:08:36.077"/>
+<log type="Message" name="The Value is : 5" status="Info"  at="2024-05-29 14:08:36.082"/>
+<log type="Assert" name="Registry_Of_Deeds_Textbox.DoSendKeys([&quot;Province of Lanao del Sur&quot;])" status="Pass"  at="2024-05-29 14:08:37.221" comment="Returned Value: true" />
+<log type="Assert" name="Generic_List.DoClick([])" status="Pass"  at="2024-05-29 14:08:38.595" comment="Returned Value: true" />
+<log type="Assert" name="Global.DoSendKeys: {ENTER}" status="Pass"  at="2024-05-29 14:08:38.595"/>
+<log type="Assert" name="RoD_Minor_Transaction_Textbox.DoSetText([&quot;Parcelization of Collective CLOA - Issue cTitle (With Subdivision Plan Approved by DENR) - Voluntary&quot;])" status="Pass"  at="2024-05-29 14:08:40.318" comment="Returned Value: true" />
+<log type="Assert" name="Generic_List.DoClick([])" status="Pass"  at="2024-05-29 14:08:41.687" comment="Returned Value: true" />
+<log type="Assert" name="RoD_Survey_Plan_Number.DoSetText([&quot;PSD-9090&quot;])" status="Pass"  at="2024-05-29 14:08:43.137" comment="Returned Value: true" />
+<log type="Assert" name="RoD_Number_Of_Titles.DoSetText([5])" status="Pass"  at="2024-05-29 14:08:44.591" comment="Returned Value: true" />
+<log type="Assert" name="RoD_Select_Tie_Point.DoClick([])" status="Pass"  at="2024-05-29 14:08:47.028" comment="Returned Value: true" />
+<log type="Assert" name="STP_Place_Textbox.DoSetText([&quot;QUEZON CITY&quot;])" status="Pass"  at="2024-05-29 14:08:48.561" comment="Returned Value: true" />
+<log type="Assert" name="Global.DoSendKeys: {ENTER}" status="Pass"  at="2024-05-29 14:08:48.564"/>
+<log type="Assert" name="ST_ID_Description_Select.DoClick([])" status="Pass"  at="2024-05-29 14:08:50.291" comment="Returned Value: true" />
+<log type="Assert" name="STP_Finish_Selection.DoClick([])" status="Pass"  at="2024-05-29 14:08:51.678" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Next.DoClick([])" status="Pass"  at="2024-05-29 14:08:54.085" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Next.DoClick([])" status="Pass"  at="2024-05-29 14:08:56.496" comment="Returned Value: true" />
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 14:08:59.519" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 14:08:59.522"/>
+<log type="Message" name="The Value is : Transfer Certificate of Title" status="Info"  at="2024-05-29 14:08:59.524"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 14:08:59.526" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 14:08:59.537"/>
+<log type="Message" name="The Value is : TCT-001" status="Info"  at="2024-05-29 14:08:59.538"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 14:08:59.545" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 14:08:59.545"/>
+<log type="Message" name="The Value is : CCLOA-101" status="Info"  at="2024-05-29 14:08:59.545"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 14:08:59.555" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 14:08:59.562"/>
+<log type="Message" name="The Value is : 277 Looban II, Loma de Gato, Marilao, Bulacan. 3019 Uppercase letters (A-Z and Ñ), Numeric (0-9), Lowercase letters (a-z and ñ), Number sign (#), Apostrophe (‘), Period (.), Comma (,) Dash (-), Slash (/), Spaces and Open and Close parenthesis. A-Z a-z 0-9" status="Info"  at="2024-05-29 14:08:59.565"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-29 14:08:59.571" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-29 14:08:59.575"/>
+<log type="Message" name="The Value is : 500" status="Info"  at="2024-05-29 14:08:59.575"/>
+<log type="Assert" name="Title_Type.DoSetText([&quot;Transfer Certificate of Title&quot;])" status="Pass"  at="2024-05-29 14:09:01.771" comment="Returned Value: true" />
+<log type="Assert" name="Generic_List.DoClick([])" status="Pass"  at="2024-05-29 14:09:04.161" comment="Returned Value: true" />
+<log type="Assert" name="Title_Number.DoSetText([&quot;TCT-001&quot;])" status="Pass"  at="2024-05-29 14:09:05.633" comment="Returned Value: true" />
+<log type="Assert" name="CCLOA_No..DoSetText([&quot;CCLOA-101&quot;])" status="Pass"  at="2024-05-29 14:09:07.109" comment="Returned Value: true" />
+<log type="Assert" name="Location_of_Property.DoSetText([&quot;277 Looban II, Loma de Gato, Marilao, Bulacan. 3019 Uppercase letters (A-Z and Ñ), Numeric (0-9), Lowercase letters (a-z and ñ), Number sign (#), Apostrophe (‘), Period (.), Comma (,) Dash (-), Slash (/), Spaces and Open and Close parenthesis. A-Z a-z 0-9&quot;])" status="Pass"  at="2024-05-29 14:09:09.005" comment="Returned Value: true" />
+<log type="Assert" name="Total_Area.DoSetText([500])" status="Pass"  at="2024-05-29 14:09:10.457" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Add.DoClick([])" status="Pass"  at="2024-05-29 14:09:12.774" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Next.DoClick([])" status="Pass"  at="2024-05-29 14:09:15.165" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Next.DoClick([])" status="Pass"  at="2024-05-29 14:09:19.569" comment="Returned Value: true" />
+<log type="Message" name="C:\Users\Public\CLRP\300 XML\PSD-9090_BA_L1_1.xml" status="Info"  at="2024-05-29 14:09:19.571"/>
+<log type="Assert" name="Upload_eTD_Choose_File.DoSendKeys([&quot;C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L1_1.xml&quot;])" status="Pass"  at="2024-05-29 14:09:20.656" comment="Returned Value: true" />
+<log type="Assert" name="Upload_Scanned_TD.DoClick([true])" status="Pass"  at="2024-05-29 14:09:23.284" comment="Returned Value: true" />
+<log type="Assert" name="Upload_Scanned_TD_Choose_File.DoSendKeys([&quot;C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg&quot;])" status="Pass"  at="2024-05-29 14:09:29.365" comment="Returned Value: true" />
+<log type="Message" name="Global.DoWaitFor: Image_ChooseFile" status="Info"  at="2024-05-29 14:09:29.395" comment="Return value: Image.jpg(HTMLObject)[-1]" />
+<log type="Assert" name="Technical_Description_Preview_Screen_Close.DoClick([])" status="Pass"  at="2024-05-29 14:09:34.767" comment="Returned Value: true" />
+<log type="Assert" name="Name_of_the_Beneficiary.DoSetText([&quot;Alwin Mangampo, Legal Age, Single. 1&quot;])" status="Pass"  at="2024-05-29 14:09:36.268" comment="Returned Value: true" />
+<log type="Assert" name="Address.DoSetText([&quot;Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 1&quot;])" status="Pass"  at="2024-05-29 14:09:37.799" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Add.DoClick([])" status="Pass"  at="2024-05-29 14:09:42.171" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Add.DoClick([])" status="Pass"  at="2024-05-29 14:09:43.495" comment="Returned Value: true" />
+<log type="Assert" name="Global.DoSendKeys: ^j" status="Pass"  at="2024-05-29 14:09:43.495"/>
+<log type="Assert" name="Global.DoSendKeys: ^w" status="Pass"  at="2024-05-29 14:09:43.537"/>
+<log type="Assert" name="TD_PreviewWithParameter.DoClick([])" status="Pass"  at="2024-05-29 14:09:44.961" comment="Returned Value: true" />
+<log type="Assert" name="Technical_Description_Preview_Screen_Close.DoClick([])" status="Pass"  at="2024-05-29 14:09:49.326" comment="Returned Value: true" />
+<log type="Message" name="C:\Users\Public\CLRP\300 XML\PSD-9090_BA_L2_2.xml" status="Info"  at="2024-05-29 14:09:49.330"/>
+<log type="Assert" name="Upload_eTD_Choose_File.DoSendKeys([&quot;C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L2_2.xml&quot;])" status="Pass"  at="2024-05-29 14:09:50.401" comment="Returned Value: true" />
+<log type="Assert" name="Upload_Scanned_TD.DoClick([true])" status="Pass"  at="2024-05-29 14:09:53.035" comment="Returned Value: true" />
+<log type="Assert" name="Upload_Scanned_TD_Choose_File.DoSendKeys([&quot;C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg&quot;])" status="Pass"  at="2024-05-29 14:09:59.094" comment="Returned Value: true" />
+<log type="Message" name="Global.DoWaitFor: Image_ChooseFile" status="Info"  at="2024-05-29 14:09:59.115" comment="Return value: Image.jpg(HTMLObject)[-1]" />
+<log type="Assert" name="Technical_Description_Preview_Screen_Close.DoClick([])" status="Pass"  at="2024-05-29 14:10:04.461" comment="Returned Value: true" />
+<log type="Assert" name="Name_of_the_Beneficiary.DoSetText([&quot;Alwin Mangampo, Legal Age, Single. 2&quot;])" status="Pass"  at="2024-05-29 14:10:05.949" comment="Returned Value: true" />
+<log type="Assert" name="Address.DoSetText([&quot;Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 2&quot;])" status="Pass"  at="2024-05-29 14:10:07.507" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Add.DoClick([])" status="Pass"  at="2024-05-29 14:10:11.888" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Add.DoClick([])" status="Pass"  at="2024-05-29 14:10:13.233" comment="Returned Value: true" />
+<log type="Assert" name="Global.DoSendKeys: ^j" status="Pass"  at="2024-05-29 14:10:13.235"/>
+<log type="Assert" name="Global.DoSendKeys: ^w" status="Pass"  at="2024-05-29 14:10:13.285"/>
+<log type="Assert" name="TD_PreviewWithParameter.DoClick([])" status="Pass"  at="2024-05-29 14:10:14.682" comment="Returned Value: true" />
+<log type="Assert" name="Technical_Description_Preview_Screen_Close.DoClick([])" status="Pass"  at="2024-05-29 14:10:19.065" comment="Returned Value: true" />
+<log type="Message" name="C:\Users\Public\CLRP\300 XML\PSD-9090_BA_L3_3.xml" status="Info"  at="2024-05-29 14:10:19.072"/>
+<log type="Assert" name="Upload_eTD_Choose_File.DoSendKeys([&quot;C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L3_3.xml&quot;])" status="Pass"  at="2024-05-29 14:10:20.150" comment="Returned Value: true" />
+<log type="Assert" name="Upload_Scanned_TD.DoClick([true])" status="Pass"  at="2024-05-29 14:10:22.787" comment="Returned Value: true" />
+<log type="Assert" name="Upload_Scanned_TD_Choose_File.DoSendKeys([&quot;C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg&quot;])" status="Pass"  at="2024-05-29 14:10:28.856" comment="Returned Value: true" />
+<log type="Message" name="Global.DoWaitFor: Image_ChooseFile" status="Info"  at="2024-05-29 14:10:28.875" comment="Return value: Image.jpg(HTMLObject)[-1]" />
+<log type="Assert" name="Technical_Description_Preview_Screen_Close.DoClick([])" status="Pass"  at="2024-05-29 14:10:34.225" comment="Returned Value: true" />
+<log type="Assert" name="Name_of_the_Beneficiary.DoSetText([&quot;Alwin Mangampo, Legal Age, Single. 3&quot;])" status="Pass"  at="2024-05-29 14:10:35.736" comment="Returned Value: true" />
+<log type="Assert" name="Address.DoSetText([&quot;Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 3&quot;])" status="Pass"  at="2024-05-29 14:10:37.263" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Add.DoClick([])" status="Pass"  at="2024-05-29 14:10:41.625" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Add.DoClick([])" status="Pass"  at="2024-05-29 14:10:43.012" comment="Returned Value: true" />
+<log type="Assert" name="Global.DoSendKeys: ^j" status="Pass"  at="2024-05-29 14:10:43.015"/>
+<log type="Assert" name="Global.DoSendKeys: ^w" status="Pass"  at="2024-05-29 14:10:43.052"/>
+<log type="Assert" name="TD_PreviewWithParameter.DoClick([])" status="Pass"  at="2024-05-29 14:10:44.455" comment="Returned Value: true" />
+<log type="Assert" name="Technical_Description_Preview_Screen_Close.DoClick([])" status="Pass"  at="2024-05-29 14:10:48.828" comment="Returned Value: true" />
+<log type="Message" name="C:\Users\Public\CLRP\300 XML\PSD-9090_BA_L4_4.xml" status="Info"  at="2024-05-29 14:10:48.828"/>
+<log type="Assert" name="Upload_eTD_Choose_File.DoSendKeys([&quot;C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L4_4.xml&quot;])" status="Pass"  at="2024-05-29 14:10:49.903" comment="Returned Value: true" />
+<log type="Assert" name="Upload_Scanned_TD.DoClick([true])" status="Pass"  at="2024-05-29 14:10:52.525" comment="Returned Value: true" />
+<log type="Assert" name="Upload_Scanned_TD_Choose_File.DoSendKeys([&quot;C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg&quot;])" status="Pass"  at="2024-05-29 14:10:58.593" comment="Returned Value: true" />
+<log type="Message" name="Global.DoWaitFor: Image_ChooseFile" status="Info"  at="2024-05-29 14:10:58.615" comment="Return value: Image.jpg(HTMLObject)[-1]" />
+<log type="Assert" name="Technical_Description_Preview_Screen_Close.DoClick([])" status="Pass"  at="2024-05-29 14:11:04.005" comment="Returned Value: true" />
+<log type="Assert" name="Name_of_the_Beneficiary.DoSetText([&quot;Alwin Mangampo, Legal Age, Single. 4&quot;])" status="Pass"  at="2024-05-29 14:11:05.516" comment="Returned Value: true" />
+<log type="Assert" name="Address.DoSetText([&quot;Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 4&quot;])" status="Pass"  at="2024-05-29 14:11:07.088" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Add.DoClick([])" status="Pass"  at="2024-05-29 14:11:11.475" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Add.DoClick([])" status="Pass"  at="2024-05-29 14:11:12.835" comment="Returned Value: true" />
+<log type="Assert" name="Global.DoSendKeys: ^j" status="Pass"  at="2024-05-29 14:11:12.835"/>
+<log type="Assert" name="Global.DoSendKeys: ^w" status="Pass"  at="2024-05-29 14:11:12.885"/>
+<log type="Assert" name="TD_PreviewWithParameter.DoClick([])" status="Pass"  at="2024-05-29 14:11:14.272" comment="Returned Value: true" />
+<log type="Assert" name="Technical_Description_Preview_Screen_Close.DoClick([])" status="Pass"  at="2024-05-29 14:11:18.655" comment="Returned Value: true" />
+<log type="Message" name="C:\Users\Public\CLRP\300 XML\PSD-9090_BA_L5_5.xml" status="Info"  at="2024-05-29 14:11:18.655"/>
+<log type="Assert" name="Upload_eTD_Choose_File.DoSendKeys([&quot;C:\\Users\\Public\\CLRP\\300 XML\\PSD-9090_BA_L5_5.xml&quot;])" status="Pass"  at="2024-05-29 14:11:19.759" comment="Returned Value: true" />
+<log type="Assert" name="Upload_Scanned_TD.DoClick([true])" status="Pass"  at="2024-05-29 14:11:22.380" comment="Returned Value: true" />
+<log type="Assert" name="Upload_Scanned_TD_Choose_File.DoSendKeys([&quot;C:\\Users\\Public\\CLRP\\For Uploading\\Image.jpg&quot;])" status="Pass"  at="2024-05-29 14:11:28.455" comment="Returned Value: true" />
+<log type="Message" name="Global.DoWaitFor: Image_ChooseFile" status="Info"  at="2024-05-29 14:11:28.475" comment="Return value: Image.jpg(HTMLObject)[-1]" />
+<log type="Assert" name="Technical_Description_Preview_Screen_Close.DoClick([])" status="Pass"  at="2024-05-29 14:11:33.845" comment="Returned Value: true" />
+<log type="Assert" name="Name_of_the_Beneficiary.DoSetText([&quot;Alwin Mangampo, Legal Age, Single. 5&quot;])" status="Pass"  at="2024-05-29 14:11:35.355" comment="Returned Value: true" />
+<log type="Assert" name="Address.DoSetText([&quot;Blk. 2 Lot 2, Karla Ville, Prenza 2, Marilao Bulcan 5&quot;])" status="Pass"  at="2024-05-29 14:11:36.857" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Add.DoClick([])" status="Pass"  at="2024-05-29 14:11:41.215" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Add.DoClick([])" status="Pass"  at="2024-05-29 14:11:42.562" comment="Returned Value: true" />
+<log type="Assert" name="Global.DoSendKeys: ^j" status="Pass"  at="2024-05-29 14:11:42.565"/>
+<log type="Assert" name="Global.DoSendKeys: ^w" status="Pass"  at="2024-05-29 14:11:42.608"/>
+<log type="Assert" name="TD_PreviewWithParameter.DoClick([])" status="Pass"  at="2024-05-29 14:11:44.001" comment="Returned Value: true" />
+<log type="Assert" name="Technical_Description_Preview_Screen_Close.DoClick([])" status="Pass"  at="2024-05-29 14:11:48.361" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Next.DoClick([])" status="Pass"  at="2024-05-29 14:11:50.772" comment="Returned Value: true" />
+<log type="Assert" name="Document_Table.DoDOMChildrenCount([])" status="Pass"  at="2024-05-29 14:11:51.815" comment="Returned Value: 6" />
+<log type="Assert" name="Document_Available.DoClick([])" status="Pass"  at="2024-05-29 14:11:54.201" comment="Returned Value: true" />
+<log type="Assert" name="Document_Available.DoClick([])" status="Pass"  at="2024-05-29 14:11:56.645" comment="Returned Value: true" />
+<log type="Assert" name="Document_Available.DoClick([])" status="Pass"  at="2024-05-29 14:11:59.061" comment="Returned Value: true" />
+<log type="Assert" name="Document_Available.DoClick([])" status="Pass"  at="2024-05-29 14:12:01.485" comment="Returned Value: true" />
+<log type="Assert" name="Document_Available.DoClick([])" status="Pass"  at="2024-05-29 14:12:03.918" comment="Returned Value: true" />

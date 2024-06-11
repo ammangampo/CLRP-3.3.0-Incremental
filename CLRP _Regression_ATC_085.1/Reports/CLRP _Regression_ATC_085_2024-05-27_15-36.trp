@@ -1,0 +1,62 @@
+<log type="Session" name="LT-IMC-QA-0174:laresuser" at="2024-05-27 15:35:29.938"/>
+<log type="Test" name="CLRP _Regression_ATC_085.1" status="Info"  at="2024-05-27 15:35:30.828"><data type="text">Test Started: C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\CLRP _Regression_ATC_085.1\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2024-05-27 15:35:30.831"/>
+<log type="Assert" name="Global.DoSetScreenResolution: 1920, 1080" status="Pass"  at="2024-05-27 15:35:30.833"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-27 15:35:35.285" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-27 15:35:35.289"/>
+<log type="Message" name="clrpautoencode" status="Info"  at="2024-05-27 15:35:35.293"/>
+<log type="Message" name="Pass@123" status="Info"  at="2024-05-27 15:35:35.296"/>
+<log type="Assert" name="CLRP_Main_Login.DoClick([])" status="Pass"  at="2024-05-27 15:35:36.690" comment="Returned Value: true" />
+<log type="Assert" name="Login_Username.DoSetText([&quot;clrpautoencode&quot;])" status="Pass"  at="2024-05-27 15:35:38.164" comment="Returned Value: true" />
+<log type="Assert" name="Login_Password.DoSetText([&quot;Pass@123&quot;])" status="Pass"  at="2024-05-27 15:35:39.620" comment="Returned Value: true" />
+<log type="Assert" name="Login_Button.DoClick([])" status="Pass"  at="2024-05-27 15:35:41.001" comment="Returned Value: true" />
+<log type="Message" name="Global.DoWaitFor: Alert_Later" status="Info"  at="2024-05-27 15:35:46.068" comment="Return value: false" />
+<log type="Assert" name="Dashboard.DoClick([])" status="Pass"  at="2024-05-27 15:35:47.414" comment="Returned Value: true" />
+<log type="Assert" name="Create_Request.DoClick([])" status="Pass"  at="2024-05-27 15:35:52.393" comment="Returned Value: true" />
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-27 15:36:02.409" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-27 15:36:02.412"/>
+<log type="Message" name="The Value is : Parcelization of Collective CLOA - Issue cTitle (With Subdivision Plan Approved by DENR) - Voluntary" status="Info"  at="2024-05-27 15:36:02.418"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-27 15:36:02.418" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-27 15:36:02.428"/>
+<log type="Message" name="The Value is : PSD-9090" status="Info"  at="2024-05-27 15:36:02.434"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-27 15:36:02.446" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-27 15:36:02.450"/>
+<log type="Message" name="The Value is : 2" status="Info"  at="2024-05-27 15:36:02.460"/>
+<log type="Assert" name="Registry_Of_Deeds_Textbox.DoSendKeys([&quot;Province of Lanao del Sur&quot;])" status="Pass"  at="2024-05-27 15:36:03.608" comment="Returned Value: true" />
+<log type="Assert" name="Generic_List.DoClick([])" status="Pass"  at="2024-05-27 15:36:04.984" comment="Returned Value: true" />
+<log type="Assert" name="Global.DoSendKeys: {ENTER}" status="Pass"  at="2024-05-27 15:36:04.988"/>
+<log type="Assert" name="RoD_Minor_Transaction_Textbox.DoSetText([&quot;Parcelization of Collective CLOA - Issue cTitle (With Subdivision Plan Approved by DENR) - Voluntary&quot;])" status="Pass"  at="2024-05-27 15:36:06.695" comment="Returned Value: true" />
+<log type="Assert" name="Generic_List.DoClick([])" status="Pass"  at="2024-05-27 15:36:08.064" comment="Returned Value: true" />
+<log type="Assert" name="RoD_Survey_Plan_Number.DoSetText([&quot;PSD-9090&quot;])" status="Pass"  at="2024-05-27 15:36:09.499" comment="Returned Value: true" />
+<log type="Assert" name="RoD_Number_Of_Titles.DoSetText([2])" status="Pass"  at="2024-05-27 15:36:10.905" comment="Returned Value: true" />
+<log type="Assert" name="RoD_Select_Tie_Point.DoClick([])" status="Pass"  at="2024-05-27 15:36:13.334" comment="Returned Value: true" />
+<log type="Assert" name="STP_Place_Textbox.DoSetText([&quot;QUEZON CITY&quot;])" status="Pass"  at="2024-05-27 15:36:14.818" comment="Returned Value: true" />
+<log type="Assert" name="Global.DoSendKeys: {ENTER}" status="Pass"  at="2024-05-27 15:36:14.823"/>
+<log type="Assert" name="ST_ID_Description_Select.DoClick([])" status="Pass"  at="2024-05-27 15:36:16.590" comment="Returned Value: true" />
+<log type="Assert" name="STP_Finish_Selection.DoClick([])" status="Pass"  at="2024-05-27 15:36:17.956" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Next.DoClick([])" status="Pass"  at="2024-05-27 15:36:20.384" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Next.DoClick([])" status="Pass"  at="2024-05-27 15:36:22.725" comment="Returned Value: true" />
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-27 15:36:22.732" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-27 15:36:22.732"/>
+<log type="Message" name="The Value is : Transfer Certificate of Title" status="Info"  at="2024-05-27 15:36:22.732"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-27 15:36:22.741" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-27 15:36:22.746"/>
+<log type="Message" name="The Value is : TCT-001" status="Info"  at="2024-05-27 15:36:22.751"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-27 15:36:22.759" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-27 15:36:22.762"/>
+<log type="Message" name="The Value is : CCLOA-101" status="Info"  at="2024-05-27 15:36:22.762"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-27 15:36:22.771" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-27 15:36:22.771"/>
+<log type="Message" name="The Value is : 277 Looban II, Loma de Gato, Marilao, Bulacan. 3019 Uppercase letters (A-Z and Ñ), Numeric (0-9), Lowercase letters (a-z and ñ), Number sign (#), Apostrophe (‘), Period (.), Comma (,) Dash (-), Slash (/), Spaces and Open and Close parenthesis. A-Z a-" status="Info"  at="2024-05-27 15:36:22.778"/>
+<log type="Assert" name="Attaching to spreadsheet" status="Pass"  at="2024-05-27 15:36:22.788" comment="C:\Users\laresuser\Documents\My Rapise Tests\CLRP 3.3.0 Incremental and Maintenance\Data.xlsx" />
+<log type="Assert" name="Open Spreadsheet" status="Pass"  at="2024-05-27 15:36:22.788"/>
+<log type="Message" name="The Value is : 200" status="Info"  at="2024-05-27 15:36:22.788"/>
+<log type="Assert" name="Title_Type.DoSetText([&quot;Transfer Certificate of Title&quot;])" status="Pass"  at="2024-05-27 15:36:24.997" comment="Returned Value: true" />
+<log type="Assert" name="Generic_List.DoClick([])" status="Pass"  at="2024-05-27 15:36:27.388" comment="Returned Value: true" />
+<log type="Assert" name="Title_Number.DoSetText([&quot;TCT-001&quot;])" status="Pass"  at="2024-05-27 15:36:28.844" comment="Returned Value: true" />
+<log type="Assert" name="CCLOA_No..DoSetText([&quot;CCLOA-101&quot;])" status="Pass"  at="2024-05-27 15:36:30.331" comment="Returned Value: true" />
+<log type="Assert" name="Location_of_Property.DoSetText([&quot;277 Looban II, Loma de Gato, Marilao, Bulacan. 3019 Uppercase letters (A-Z and Ñ), Numeric (0-9), Lowercase letters (a-z and ñ), Number sign (#), Apostrophe (‘), Period (.), Comma (,) Dash (-), Slash (/), Spaces and Open and Close parenthesis. A-Z a-&quot;])" status="Pass"  at="2024-05-27 15:36:32.269" comment="Returned Value: true" />
+<log type="Assert" name="Total_Area.DoSetText([200])" status="Pass"  at="2024-05-27 15:36:33.702" comment="Returned Value: true" />
+<log type="Assert" name="Generic_Add.DoClick([])" status="Pass"  at="2024-05-27 15:36:35.999" comment="Returned Value: true" />
+<log type="Test" name="CLRP _Regression_ATC_085.1" status="Pass" closed="CLRP _Regression_ATC_085.1" _guid="undefined"  at="2024-05-27 15:36:36.001" comment="Passed:46 Failed:0 Time:65.312s" />
