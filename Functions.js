@@ -114,7 +114,6 @@ function enterTransactionDAR() { //For DAR Encoder User
     Global.DoSendKeys('{ENTER}');
     SeS('ST_ID_Description_Select').DoClick();
     SeS('STP_Finish_Selection').DoClick();
-    SeS('Generic_Next').DoClick();
 }
 
 function enterTitleReferenceDAR(title_type, area, title) {
@@ -243,7 +242,6 @@ function moveFileWithPrefixAndIndex(prefix, index) {
     // Log the destination folder and file name for verification
     Tester.Message("Folder created and file copied to: " + destinationFile);
 }
-
 
 function clrpCredentials(userType) {
     var fso = new ActiveXObject("Scripting.FileSystemObject");
@@ -1732,7 +1730,6 @@ function extractCLRPReferenceNumberDAR(text) {
     }
 }
 
-
 function reviewDARForReworkTransaction() {
     reviewDARTransaction();
     reviewDARPresenter();
@@ -2107,6 +2104,7 @@ SeSOnTestInit(function() {
 //	WebDriver.Close();
 //});
 
+
 function enterPresenterRAF(){
     //Created by Jerico 05/29/24
     /*Updated By: Almer 06/03/2024*/
@@ -2140,7 +2138,7 @@ function enterInfavorOfRAF(){
     //Updated by Jerico 05.29.24
 	/*Updated By: Almer 06/04/2024*/
 
-    inFavorName = getDataFromSpreadsheet('In Favor Name', 'RAF In Favor Of');
+    inFavorName = getDataFromSpreadsheet('In Favor Name', 'RAF Presenter');
     SeS('Generic_In_FavorOf_Tab').DoClick();
     SeS('InFavor_Of_Textfield').DoSetText(inFavorName);
     length = Navigator.DOMFindByXPath('(//input[@maxlength="500"])[1]').DoDOMGetAttribute('maxlength');
@@ -2230,29 +2228,62 @@ function createTransactionEntryRAF() {
     major = getDataFromSpreadsheet('Major Transaction', 'RAF Transaction Entry');
     minor = getDataFromSpreadsheet('Minor Transaction', 'RAF Transaction Entry');
     currValue = getDataFromSpreadsheet('Current Assessed Value', 'RAF Transaction Entry');
-    consValue = getDataFromSpreadsheet('Consideration Value    ', 'RAF Transaction Entry');
-
-    Global._DoWaitFor('Transaction_Details_Grid_Major_Transaction', 5000, 600);
+    consValue = getDataFromSpreadsheet('Consideration Value', 'RAF Transaction Entry');
+    AssAmount = getDataFromSpreadsheet('Assigned Amount', 'RAF Transaction Entry');
+    
+    Global._DoWaitFor('Transaction_Details_Grid_Major_Transaction',5000,600);
     SeS('Transaction_Details_Grid_Major_Transaction').DoSetText(major);
     Global.DoSleep(1000);
     SeS('Generic_List').DoClick();
     SeS('Transaction_Details_Grid_Minor_Transaction').DoSetText(minor);
     Global.DoSleep(1000);
     SeS('Generic_List').DoClick();
+        
 
-
-    if (Global.DoWaitFor('Generic_CurrentAssessed_Value', 3000)) {
-        SeS('Generic_CurrentAssessed_Value').DoClick();
+     if (Global.DoWaitFor('Generic_CurrentAssessed_Value',3000)){
+         SeS('Generic_CurrentAssessed_Value').DoClick();    
         SeS('Generic_CurrentAssessed_Value').DoSetText(currValue);
-
-    }
-
-    if (Global.DoWaitFor('Generic_Consideration_Value', 3000)) {
-        SeS('Generic_Consideration_Value').DoClick();
+     
+     }
+     
+     if (Global.DoWaitFor('Generic_Consideration_Value',3000)){
+         SeS('Generic_Consideration_Value').DoClick();
         SeS('Generic_Consideration_Value').DoSetText(consValue);
-    }
+     }
+     
+     if (Global.DoWaitFor('Transaction_CM_AssignedAmount',3000)){
+      	SeS('Transaction_CM_AssignedAmount').DoClick();
+     	SeS('Transaction_CM_AssignedAmount').DoSetText(AssAmount);
+     }
+     
+     SeS('Transaction_Details_Grid_Minor_Transaction').DoClick();
+     SeS('Generic_Next').DoClick();
+}
+function enterCMIDNoRAF(){
+    cmIDNo = getDataFromSpreadsheet('CM ID No', 'RAF Title Reference');
+    
+  SeS('RAF_CM_Reference_Tab').DoClick();
+  SeS('CMReference_CM_ID_No').DoSetText(cmIDNo);
+  SeS('Generic_Add').DoClick();
+}
 
-    SeS('Generic_Next').DoClick();
+function enterSubmitRAF(){
+//Added by: Jayvee - 06.06.24
+	SeS('Generic_Submit').DoClick();
+//PDF Print Transaction Screen Preview
+	Global.DoSleep(3000);
+	Tester.CaptureDesktopImage('Paalala Prompt');
+	Global.DoSendKeys('{ESC}');
+	Global.DoSleep(1000);
+	Tester.CaptureDesktopImage('Print Transaction Screen');
+	downloadRAF();
+	Navigator.SeSFind("//div[contains(@class,'v-window-header')]").DoClick();
+	Global.DoSleep(3000);
+	Global.DoSendKeys('{ESC}');
+	Global.DoSleep(3000);
+	Global.DoSendKeys('{ESC}');
+	Global.DoSleep(3000);
+	Global.DoSendKeys('{ESC}');
 }
 
 function enterTitleReferenceRAF() {
@@ -2281,7 +2312,6 @@ function enterUploadETD() {
     SeS('ETD_Submit_No.Parcels').DoSetText(submitnoParcels);
 }
 
-
 function enterExecutedByRAF(){ 
 /*Added By Almer: 5/30/24*/
 /*Updated By: Almer 06/04/2024*/
@@ -2295,7 +2325,6 @@ function enterExecutedByRAF(){
 	//Updated by Carlo 04.27.23
 	SeS('Generic_Next').DoClick();
 }
-
 
 function enterRAFDocumentNotarialwithNotaryDateinputted(){
 /*Added By Almer: 5/31/24*/
@@ -2494,25 +2523,6 @@ function enterTitleReferenceRAFwCharacterValidation(length){
 	SeS('Generic_Next').DoClick();
 }	
 
-
-function enterUploadETDwCharacterValidation(registryofDeeds,submitplanNumber,submitnoParcels,length) {
-/*Almer 6/4/2024*/
-    var registryofDeeds = getDataFromSpreadsheet('Registry of Deeds', 'ETD Upload');
-    var submitplanNumber = getDataFromSpreadsheet('Plan Number', 'ETD Upload');
-    var submitnoParcels = getDataFromSpreadsheet('Number of Parcels', 'ETD Upload');
-    SeS('ETD_Submit_RegistryOfDeeds').DoClick();
-    Global.DoSendKeys(registryofDeeds);
-    Global.DoSleep(1000);
-    Global.DoSendKeys('{ENTER}');
-    Global.DoSendKeys('{ENTER}');
-    SeS('ETD_Submit_No.Parcels').DoSetText(submitnoParcels);
-    SeS('ETD_Submit_PlanNumber').DoSetText(submitplanNumber);
-  	var text = Navigator.DOMFindByXPath("//div[8]/div[2]/div[3]/div/input[@type='text']").GetValue();
-	count = text.length;
-	Tester.AssertEqual('Validate if length Accept '+length+' Characters', count, length);
-}
-
-
 function getRowIdByTCID(TCID) {
     // Attach to the spreadsheet located in the %WORKDIR% directory
     var success = Spreadsheet.DoAttach('%WORKDIR%/Data.xlsx', 'PDF Download Details');
@@ -2690,51 +2700,14 @@ function downloadETDApplicationForm() {
     }
 }
 
-
 function extractCLRPReferenceNumberETD(text) {
-    // Log the entire text content for debugging
-    Tester.Message("PDF Text Content: " + text);
-
-    // Try to match the CLRP Reference Number using a regex pattern
     var pattern = /CLRP Reference Number:\s*(CLRP_eTD-\d+)/;
     var match = text.match(pattern);
-    
-    // Log the extraction attempt
     if (match) {
-        Tester.Message("CLRP Reference Number matched: " + match[1]);
         return match[1];
     } else {
-        Tester.Message("CLRP Reference Number not found in text.");
         return null;
     }
-}
-
-
-function extractCLRPReferenceNumber(){
-
-    // Get the path of the PDF and extract the Transaction number
-    Tester.Message("Destination file: " + destinationFile);
-    
-    var fullPath = destinationFile;
-	Tester.Message("Full Path: " + fullPath);
-	
-	var text = PDF2_GetFullText(fullPath);
-	Tester.Message(text);
-	
-	// Extract the CLRP Reference Number
-	var clrpReferenceNumber = extractCLRPReferenceNumberETD(text);
-	
-	// Log the result 
-	if (clrpReferenceNumber) {
-	    Tester.Message("CLRP Reference Number: " + clrpReferenceNumber);
-	} else {
-	    Tester.Message("CLRP Reference Number not found.");
-	}
-	
-	// Set the CLRP Reference number in Spreadsheet
-    setDataSpreadsheet(clrpReferenceNumber, "CLRP Reference Number");
-
-
 }
 
 function submitETD(){
@@ -2752,4 +2725,135 @@ function submitETD(){
 	Navigator.SeSFind("//div[@aria-label='close button']").DoClick();
 	SeS('ETD_Submit_Notif').DoClick();
 	SeS('ETD_Upload_Success').DoClick();
+}
+
+function downloadRAF() {
+   var prefix = "RAF";
+    var index = 8;
+
+    Global.DoSendKeys('^j');
+    Global.DoSendKeys('^w');
+    // Download the file
+    for (var i = 0; i < index; i++) {
+        Global.DoSendKeys('{TAB}');
+    }
+    Global.DoSendKeys('{ENTER}');
+
+    // Get the current date and time
+    var dt = new Date();
+    var year = dt.getFullYear();
+    var month = (dt.getMonth() + 1 < 10 ? '0' : '') + (dt.getMonth() + 1);
+    var day = (dt.getDate() < 10 ? '0' : '') + dt.getDate();
+    var hours = (dt.getHours() < 10 ? '0' : '') + dt.getHours();
+    var minutes = (dt.getMinutes() < 10 ? '0' : '') + dt.getMinutes();
+    var seconds = (dt.getSeconds() < 10 ? '0' : '') + dt.getSeconds();
+
+    var formattedDateTime = year + '-' + month + '-' + day + '_' + hours + '_' + minutes + '_' + seconds;
+   	Global.DoSleep(5000);
+
+    // Specify the file name with the given prefix
+    var fileName = prefix + "-" + formattedDateTime + ".pdf";
+    Global.DoSendKeys(fileName);
+    Global.DoSendKeys('{ENTER}');
+    Global.DoSleep(10000);  // Increased sleep to ensure download completion
+
+    var TCID = Tester.GetTestName();
+    Tester.Message("Test Case ID: " + TCID);
+
+    // Define source and destination
+    var shell = new ActiveXObject("WScript.Shell");
+    var userProfile = shell.ExpandEnvironmentStrings("%USERPROFILE%");
+    var sourceFolder = userProfile + "\\Downloads\\";
+    var dateToday = year + '-' + month + '-' + day;
+    var sourceFile = sourceFolder + fileName;
+    var destinationFolder = "C:\\Users\\Public\\CLRP\\Reports\\" + dateToday + "\\" + TCID + "\\";
+    var destinationFile = destinationFolder + fileName;
+
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+
+    // Verify if the source file exists before moving
+    if (fso.FileExists(sourceFile)) {
+        Tester.Message("Source file exists: " + sourceFile);
+
+        // Specify the path for the batch file
+        var batchFileName = "moveFiles.bat";
+        var batchFilePath = "C:\\Users\\Public\\CLRP\\" + batchFileName;
+
+        // Open the batch file for writing
+        var textfile = fso.OpenTextFile(batchFilePath, 2, true);
+
+        // Write the commands to the batch file
+        textfile.WriteLine("@echo off");
+        textfile.WriteLine("if not exist \"" + destinationFolder + "\" mkdir \"" + destinationFolder + "\"");
+        textfile.WriteLine("set \"source=" + sourceFile + "\"");
+        textfile.WriteLine("set \"destination=" + destinationFile + "\"");
+        textfile.WriteLine("move \"%source%\" \"%destination%\"");
+
+        // Close the batch file
+        textfile.Close();
+		Global.DoSleep(2000); 
+        // Launch the batch file
+        Global.DoLaunch(batchFilePath);
+        Global.DoSleep(10000);  // Increased sleep to ensure the move operation completes
+
+        // Check if the destination file exists after moving
+        if (fso.FileExists(destinationFile)) {
+            Tester.Message("File moved successfully to: " + destinationFile);
+
+            // Set Data in Spreadsheet
+            setDataSpreadsheet(fileName, "File Name");
+            setDataSpreadsheet(destinationFile, "Location");
+
+            // Get the path of the PDF and extract the Transaction number
+            Tester.Message("Destination file: " + destinationFile);
+
+            var fullPath = destinationFile;
+            Tester.Message("Full Path: " + fullPath);
+
+            var text = PDF2_GetFullText(fullPath);
+            if (text) {
+                Tester.Message("PDF Text: " + text);
+
+                // Extract the CLRP Reference Number
+                var clrpReferenceNumber = extractCLRPReferenceNumberRAF(text);
+
+                // Log the result 
+                if (clrpReferenceNumber) {
+                    Tester.Message("CLRP Reference Number: " + clrpReferenceNumber);
+                } else {
+                    Tester.Message("CLRP Reference Number not found.");
+                }
+
+                // Set the CLRP Reference number in Spreadsheet
+                setDataSpreadsheet(clrpReferenceNumber, "CLRP Reference Number");
+            } else {
+                Tester.Message("Failed to extract text from PDF.");
+            }
+        } else {
+            Tester.Message("Error: File does not exist after moving - " + destinationFile);
+        }
+    } else {
+        Tester.Message("Error: Source file does not exist - " + sourceFile);
+        
+        // List all files in the Downloads folder for debugging
+        var files = [];
+        var e = new Enumerator(fso.GetFolder(sourceFolder).Files);
+        for (; !e.atEnd(); e.moveNext()) {
+            var file = e.item();
+            files.push({
+                name: file.Name,
+                created: file.DateCreated
+            });
+        }
+
+        // Sort files by creation date descending
+        files.sort(function(a, b) {
+            return b.created - a.created;
+        });
+
+        // Log sorted files
+        for (var i = 0; i < files.length; i++) {
+            Tester.Message("File in Downloads folder: " + files[i].name + ", Created: " + files[i].created);
+        }
+    }
 }
