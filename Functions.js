@@ -7,7 +7,6 @@ Global.place;
 Global.tiePointDesc;
 Global.descTiePointID;
 Global.tiePointID;
-Global.destinationFile;
 
 var url = "https://uat.clrp.com.ph/";
 //var url = "https://staging.clrp.com.ph/app/";
